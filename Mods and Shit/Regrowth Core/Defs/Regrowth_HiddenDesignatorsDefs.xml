@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>RegrowthCore_HiddenDesignators</defName>
+		<hiddenDesignators>		
+			<li>RG_Hedge</li>	
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>

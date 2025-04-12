@@ -1,0 +1,76 @@
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
+    <li IfModActive="shork.torpedo.architecture">Mods and Shit/Architecture of the Rim</li>
+    <li IfModActive="3hstltd.signs">Mods and Shit/Bill Signs</li>
+    <li IfModActive="biomesteam.biomesfossils">Mods and Shit/Biomes Fossils</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="mingtuwuxiang.fishingdecorative">Mods and Shit/MUS Fishing</li>
+    <li IfModActive="mingtuwuxiang.gothicdecorative">Mods and Shit/MUS Gothic</li>
+    <li IfModActive="kongkim.panelsframes">Mods and Shit/Panels and Frames</li>
+    <li IfModActive="gomi.simplestairs">Mods and Shit/Simple Stairs</li>
+    <li IfModActive="VanillaExpanded.VFECore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="VanillaExpanded.VFESpacer">Mods and Shit/VFE Spacer</li>
+    <li IfModActive="ReGrowth.BOTR.Core">Mods and Shit/Regrowth Core</li>
+    <li IfModActive="anthitei.athsstylegothic.style">Mods and Shit/Gothic Style</li>
+    <li IfModActive="vanillaexpanded.vfearchitect">Mods and Shit/VFE Architect</li>
+    <li IfModActive="eeg.architecture">Mods and Shit/AOTR Corners</li>
+    <li IfModActive="Inggo.AdvancedPolyBeds">Mods and Shit/Advanced Poly Beds</li>
+    <li IfModActive="mewn.extra.signs">Mods and Shit/MO Extra Signs</li>
+    <li IfModActive="dark.signs">Mods and Shit/Signs and Comments</li>
+    <li IfModActive="oracle.miscellania">Mods and Shit/Oracle's Miscellania</li>
+    <li IfModActive="vanillaexpanded.vgeneticse">Mods and Shit/VE Genetics</li>
+    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="sarg.alphapropsparks">Mods and Shit/AP Parks</li>
+    <li IfModActive="zylle.clocks">Mods and Shit/Clocks</li>
+    <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
+    <li IfModActive="Van.DACrypts">Mods and Shit/Dark Ages CAT</li>
+    <li IfModActive="lunartika.os">Mods and Shit/Office Supplies</li>
+    <li IfModActive="shp.rus">Mods and Shit/Stationhouse Supplies</li>
+    <li IfModActive="vanillaexpanded.vfeart">Mods and Shit/VFE Art</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="Scurvyez.StevesWalls">Mods and Shit/Steve's Walls</li>
+    <li IfModActive="scurvyez.stevesdoors">Mods and Shit/Steve's Doors</li>
+    <li IfModActive="DSP.HalituisAmaricanous">Mods and Shit/Dune Style</li>
+    <li IfModActive="rimsenal.Sophian">Mods and Shit/Rimsenal Sophian</li>
+    <li IfModActive="rimsenal.techist">Mods and Shit/Rimsenal Techist</li>
+  </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li IfModActive="mlie.amnabisflags">Mods and Shit/Amnabi's Flags</li>
+    <li IfModActive="shork.torpedo.architecture">Mods and Shit/Architecture of the Rim</li>
+    <li IfModActive="3hstltd.signs">Mods and Shit/Bill Signs</li>
+    <li IfModActive="biomesteam.biomesfossils">Mods and Shit/Biomes Fossils</li>
+    <li IfModActive="dankpyon.medieval.overhaul">Mods and Shit/Medieval Overhaul</li>
+    <li IfModActive="mingtuwuxiang.fishingdecorative">Mods and Shit/MUS Fishing</li>
+    <li IfModActive="mingtuwuxiang.gothicdecorative">Mods and Shit/MUS Gothic</li>
+    <li IfModActive="kongkim.panelsframes">Mods and Shit/Panels and Frames</li>
+    <li IfModActive="gomi.simplestairs">Mods and Shit/Simple Stairs</li>
+    <li IfModActive="VanillaExpanded.VFECore">Mods and Shit/VE Furniture</li>
+    <li IfModActive="VanillaExpanded.VFESpacer">Mods and Shit/VFE Spacer</li>
+    <li IfModActive="ReGrowth.BOTR.Core">Mods and Shit/Regrowth Core</li>
+    <li IfModActive="anthitei.athsstylegothic.style">Mods and Shit/Gothic Style</li>
+    <li IfModActive="vanillaexpanded.vfearchitect">Mods and Shit/VFE Architect</li>
+    <li IfModActive="eeg.architecture">Mods and Shit/AOTR Corners</li>
+    <li IfModActive="Inggo.AdvancedPolyBeds">Mods and Shit/Advanced Poly Beds</li>
+    <li IfModActive="mewn.extra.signs">Mods and Shit/MO Extra Signs</li>
+    <li IfModActive="dark.signs">Mods and Shit/Signs and Comments</li>
+    <li IfModActive="oracle.miscellania">Mods and Shit/Oracle's Miscellania</li>
+    <li IfModActive="vanillaexpanded.vgeneticse">Mods and Shit/VE Genetics</li>
+    <li IfModActive="xmb.ancienturbanruins.mo">Mods and Shit/Ancient Urban Ruins</li>
+    <li IfModActive="sarg.alphapropsparks">Mods and Shit/AP Parks</li>
+    <li IfModActive="zylle.clocks">Mods and Shit/Clocks</li>
+    <li IfModActive="rebuild.cotr.doorsandcorners">Mods and Shit/Rebuild DAC</li>
+    <li IfModActive="Van.DACrypts">Mods and Shit/Dark Ages CAT</li>
+    <li IfModActive="lunartika.os">Mods and Shit/Office Supplies</li>
+    <li IfModActive="shp.rus">Mods and Shit/Stationhouse Supplies</li>
+    <li IfModActive="vanillaexpanded.vfeart">Mods and Shit/VFE Art</li>
+    <li IfModActive="oskarpotocki.vanillafactionsexpanded.settlersmodule">Mods and Shit/VFE Settlers</li>
+    <li IfModActive="Scurvyez.StevesWalls">Mods and Shit/Steve's Walls</li>
+    <li IfModActive="scurvyez.stevesdoors">Mods and Shit/Steve's Doors</li>
+    <li IfModActive="DSP.HalituisAmaricanous">Mods and Shit/Dune Style</li>
+    <li IfModActive="rimsenal.Sophian">Mods and Shit/Rimsenal Sophian</li>
+    <li IfModActive="rimsenal.techist">Mods and Shit/Rimsenal Techist</li>
+  </v1.5>
+</loadFolders>

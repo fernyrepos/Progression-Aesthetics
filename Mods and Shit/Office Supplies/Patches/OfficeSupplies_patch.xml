@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="OfficeThingsBase"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Misc</designationCategory>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Magnifier"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Magnifier"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_LunchboxA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_LunchboxA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_LunchboxB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_LunchboxB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_BriefcaseA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_BriefcaseA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_BriefcaseB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_BriefcaseB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Phonograph"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Phonograph"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Radio"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Radio"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Coffeecan"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Coffeecan"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Deskbell"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Deskbell"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Deskphone"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Deskphone"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Scale"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="OS_Scale"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Ribbons"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_Ribbons"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_MugA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_MugA"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_MugB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_MugB"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_EnvelopesA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_EnvelopesA"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_EnvelopesB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_EnvelopesB"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_NotesA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_NotesA"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_NotesB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_NotesB"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_NotesC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_NotesC"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_Clipboard"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_Clipboard"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_TypewriterA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_TypewriterA"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_TypewriterB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_TypewriterB"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_TypewriterC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_TypewriterC"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="OS_TypewriterD"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationRemove">
+                <xpath>/Defs/ThingDef[defName="OS_TypewriterD"]/designatorDropdown</xpath>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+</Patch>

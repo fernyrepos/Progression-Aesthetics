@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns1</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Boomalope</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns2</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Caution</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns3</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Electric</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns4</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Exit</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns5</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Fire</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns6</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_MechA</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns7</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_MechB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns8</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Royalty</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns9</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Turret</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns10</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsForbidding_Weapon</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns11</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Church</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns12</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_ChurchB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns13</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Comms</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns14</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Dining</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns15</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Droppod</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns16</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Lab</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns17</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Meditation</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns18</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Mine</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns19</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Prison</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns20</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_PrisonB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns21</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Reactor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns22</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Parkin</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns23</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Toilet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns24</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Trading</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns25</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocation_Workshop</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns26</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Church</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns27</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_ChurchB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns28</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Comms</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns29</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Dining</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns30</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Droppod</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns31</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Hangar</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns32</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Lab</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns33</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Meditation</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns34</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Mine</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns35</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Prison</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns36</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_PrisonB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns37</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Reactor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns38</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Toilet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns39</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Trading</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns40</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Workshop</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns41</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Welcome</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns42</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_WelcomeB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns43</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_Royal</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns44</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationLarge_RoyalB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns45</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationSpecial_Armory</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns46</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationSpecial_Exit</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns47</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationSpecial_Medical</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns48</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationSpecial_Royalty</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns49</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsLocationSpecial_Shelter</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns50</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Boomalope</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns51</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Caution</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns52</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Electric</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns53</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Exit</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns54</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_GasMask</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns55</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Helmet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns56</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_MechA</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns57</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_MechB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns58</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Royalty</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns59</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Turret</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns60</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsSuggestive_Weapon</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns61</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Boomalope</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns62</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Caution</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns63</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Cold</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns64</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Electric</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns65</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Explosive</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns66</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Fire</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns67</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Hot</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns68</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Landmine</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns69</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Machinery</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns70</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_MechA</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns71</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_MechB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns72</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Radioactive</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns73</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Royalty</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns74</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Toxic</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns75</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_Turret</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns76</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_GenericA</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns77</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarning_GenericB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_billsigns78</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Boomalope</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns79</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Caution</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns80</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Cold</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns81</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Electric</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns82</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Explosive</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns83</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Fire</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns84</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Hot</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns85</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Landmine</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns86</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Machinery</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns87</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_MechA</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns88</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_MechB</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns89</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Radioactive</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns90</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Toxic</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_billsigns91</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>BDsSign_SignsWarningLarge_Turret</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+</Defs>

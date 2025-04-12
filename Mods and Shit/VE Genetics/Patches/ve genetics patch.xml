@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Signs and Comments</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+    <operations>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignA"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignB"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignC"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignD"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignE"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignF"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignG"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+<li Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]</xpath>
+  <value>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </value>
+</li>
+
+<li Class="PatchOperationConditional">
+  <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]/comps</xpath>
+  <nomatch Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]</xpath>
+    <value>
+      <comps>
+        <li Class="Dark.Signs.CompProperties_Sign">
+          <canEditContent>true</canEditContent>
+          <canBeEmpty>true</canBeEmpty>
+          <defaultContents></defaultContents>
+        </li>
+      </comps>
+    </value>
+  </nomatch>
+  <match Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ThingDef[defName="VFEPD_SignH"]/comps</xpath>
+    <value>
+      <li Class="Dark.Signs.CompProperties_Sign">
+        <canEditContent>true</canEditContent>
+        <canBeEmpty>true</canBeEmpty>
+        <defaultContents></defaultContents>
+      </li>
+    </value>
+  </match>
+</li>
+
+
+
+    </operations>
+		</match>
+	</Operation>
+</Patch>

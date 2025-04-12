@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>FernyGothicStyle_HiddenDesignators</defName>
+		<hiddenDesignators>		
+			<li>Decoration</li>	
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>

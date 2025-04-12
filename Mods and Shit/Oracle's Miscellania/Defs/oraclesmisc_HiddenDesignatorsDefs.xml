@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>FernyOracleMisc_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>oracle_VoidFlooring</li>
+			<li>oracle_voidWall</li>
+			<li>oracle_voidDoor</li>
+			<li>oracle_voidFence</li>
+			<li>Oracle_Wallcap</li>
+			<li>oracle_CorrugatedDoor_Double</li>
+			<li>oracle_TireWall</li>
+			<li>oracle_Diag</li>
+			<li>oracle_ClutterDiag</li>
+			<li>oracle_DiagBrick</li>
+			<li>Oracle_TripleDoor</li>
+			<li>Oracle_TripleDoorBrick</li>
+			<li>Oracle_TripleDoorPlank</li>
+			<li>Oracle_TripleAutodoor</li>
+			<li>oracle_LogDoor</li>
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>

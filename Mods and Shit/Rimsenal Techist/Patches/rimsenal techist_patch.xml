@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+                <Operation Class="PatchOperationFindMod">
+                  <mods>
+                    <li>Alpha Memes</li>
+                  </mods>
+                  <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/StyleCategoryDef[defName="Techist"]/label</xpath>
+                            <value>
+                                <label>Techpunk</label>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_Revolver" and styleDef="Gun_RevolverTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_PumpShotgun" and styleDef="Gun_ShotgunTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_BoltActionRifle" and styleDef="Gun_BoltActionRifleTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_MachinePistol" and styleDef="Gun_MachinePistolTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_Autopistol" and styleDef="Gun_AutopistolTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_ChainShotgun" and styleDef="Gun_ChainShotgunTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_HeavySMG" and styleDef="Gun_HeavySMGTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_LMG" and styleDef="Gun_LMGTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_AssaultRifle" and styleDef="Gun_AssaultRifleTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_Minigun" and styleDef="Gun_MinigunTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_SniperRifle" and styleDef="Gun_SniperRifleTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_ChargeRifle" and styleDef="Gun_ChargeRifleTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Gun_ChargeLance" and styleDef="Gun_ChargeLanceTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_Axe" and styleDef="MeleeWeapon_AxeTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_Mace" and styleDef="MeleeWeapon_MaceTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_Gladius" and styleDef="MeleeWeapon_GladiusTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_Knife" and styleDef="MeleeWeapon_KnifeTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_Spear" and styleDef="MeleeWeapon_SpearTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="MeleeWeapon_LongSword" and styleDef="MeleeWeapon_LongswordTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Apparel_AdvancedHelmet" and styleDef="Apparel_AdvancedHelmetTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Apparel_ArmorHelmetRecon" and styleDef="Apparel_ArmorHelmetReconTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationRemove">
+                          <xpath>Defs/StyleCategoryDef[defName="Techist"]/thingDefStyles/li[thingDef="Apparel_PowerArmorHelmet" and styleDef="Apparel_PowerArmorHelmetTechist"]</xpath>
+                        </li>
+                        <li Class="PatchOperationAdd">
+                            <xpath>/Defs</xpath>
+                            <value>
+                            <StyleCategoryDef>
+                              <defName>RimsenalTechist</defName>
+                              <label>techist</label>
+                              <iconPath>UI/StyleCategories/Techist</iconPath>
+                              <soundOngoingRitual>RitualSustainer_Techist</soundOngoingRitual>
+                              <ritualVisualEffectDef>Techist</ritualVisualEffectDef>
+                              <thingDefStyles>
+                                <li>
+                                  <thingDef>Gun_Revolver</thingDef>
+                                  <styleDef>Gun_RevolverTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_PumpShotgun</thingDef>
+                                  <styleDef>Gun_ShotgunTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_BoltActionRifle</thingDef>
+                                  <styleDef>Gun_BoltActionRifleTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_MachinePistol</thingDef>
+                                  <styleDef>Gun_MachinePistolTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_Autopistol</thingDef>
+                                  <styleDef>Gun_AutopistolTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_ChainShotgun</thingDef>
+                                  <styleDef>Gun_ChainShotgunTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_HeavySMG</thingDef>
+                                  <styleDef>Gun_HeavySMGTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_LMG</thingDef>
+                                  <styleDef>Gun_LMGTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_AssaultRifle</thingDef>
+                                  <styleDef>Gun_AssaultRifleTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_Minigun</thingDef>
+                                  <styleDef>Gun_MinigunTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_SniperRifle</thingDef>
+                                  <styleDef>Gun_SniperRifleTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_ChargeRifle</thingDef>
+                                  <styleDef>Gun_ChargeRifleTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Gun_ChargeLance</thingDef>
+                                  <styleDef>Gun_ChargeLanceTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_Axe</thingDef>
+                                  <styleDef>MeleeWeapon_AxeTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_Mace</thingDef>
+                                  <styleDef>MeleeWeapon_MaceTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_Gladius</thingDef>
+                                  <styleDef>MeleeWeapon_GladiusTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_Knife</thingDef>
+                                  <styleDef>MeleeWeapon_KnifeTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_Spear</thingDef>
+                                  <styleDef>MeleeWeapon_SpearTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>MeleeWeapon_LongSword</thingDef>
+                                  <styleDef>MeleeWeapon_LongswordTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Apparel_AdvancedHelmet</thingDef>
+                                  <styleDef>Apparel_AdvancedHelmetTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Apparel_ArmorHelmetRecon</thingDef>
+                                  <styleDef>Apparel_ArmorHelmetReconTechist</styleDef>
+                                </li>
+                                <li>
+                                  <thingDef>Apparel_PowerArmorHelmet</thingDef>
+                                  <styleDef>Apparel_PowerArmorHelmetTechist</styleDef>
+                                </li>
+                              </thingDefStyles>
+                              <addDesignators>
+                                <li>Tile_Transhumanist</li>
+                              </addDesignators>
+                              <addDesignatorGroups>
+                                <li>Floor_Transhumanist_Carpet</li>
+                              </addDesignatorGroups>
+                            </StyleCategoryDef>
+                            </value>
+                        </li>
+                    </operations>
+                  </match>
+                </Operation>
+</Patch>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_SpacerDoors</defName>
+		<label>Spacer doors</label>
+		<description>Construct stylish high-tech doors.</description>
+		<baseCost>900</baseCost>
+		<tab>Main</tab>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>4.00</researchViewY>
+		<prerequisites>
+			<li>MicroelectronicsBasics</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

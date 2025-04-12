@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+<!-- PATCHES -->
+                <Operation Class="PatchOperationRemove">
+                    <xpath>Defs/DesignationCategoryDef[defName="AOMorefurniture"]</xpath>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_StoneSlab"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_Simple"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_Cushion"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_Ergonomic"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_DoubleErgonomic"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_DoubleErgonomic"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Bed_Kingsize"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_1x1c"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_Counter"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_LightEndTable"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_RoyalEndTable"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_RoyalDresser"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Table_Wardrobe"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Table_Royal1x1c"]</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Table_Royal2x2c"]</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Table_Royal1x2c"]</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Table_Royal3x3c"]</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Table_Royal2x4c"]</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Light_Streetlamp"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_Bench"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_SquareChair"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory></designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Shelf_WeaponRack"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_ModernChair"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_RoyalChair"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="Seat_RoyalArmchair"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[@Name="RoyalTableDesc"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Furniture</designationCategory>
+                    </value>
+                </Operation>
+
+
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
+                    <value>
+                        <label>Royal furniture</label>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationFindMod">
+                  <mods>
+                    <li>Medieval Overhaul</li>
+                  </mods>
+                  <match Class="PatchOperationSequence">
+                    <operations>
+                    <!-- ROYAL FURNITURE -->
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Seat_RoyalArmchair"]/designationCategory</xpath>
+                            <value>
+                              <designationCategory></designationCategory>
+                            </value>
+                        </li>
+
+
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/label</xpath>
+                            <value>
+                              <label>supreme table (2x2)</label>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/label</xpath>
+                            <value>
+                              <label>supreme table (2x4)</label>
+                            </value>
+                        </li>
+                        <!-- Supreme 2x2 -->
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/label</xpath>
+                            <value>
+                              <label>supreme table (2x2)</label>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]</xpath>
+                            <value>
+                              <description>A ridiculously deluxe table superior to the standard royal fare. A table for only the truest of nobility.</description>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/costStuffCount</xpath>
+                            <value>
+                              <costStuffCount>110</costStuffCount>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/statBases/Beauty</xpath>
+                            <value>
+                              <Beauty>70</Beauty>
+                            </value>
+                        </li>
+                        <!-- Supreme 2x4 -->
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/label</xpath>
+                            <value>
+                              <label>supreme table (2x4)</label>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationAdd">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]</xpath>
+                            <value>
+                              <description>A ridiculously deluxe table superior to the standard royal fare. A table for only the truest of nobility.</description>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/costStuffCount</xpath>
+                            <value>
+                              <costStuffCount>200</costStuffCount>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/statBases/Beauty</xpath>
+                            <value>
+                              <Beauty>90</Beauty>
+                            </value>
+                        </li>
+                        <!-- <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Table_Royal2x2c"]/designationCategory</xpath>
+                            <value>
+                              <designationCategory></designationCategory>
+                            </value>
+                        </li>
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Table_Royal2x4c"]/designationCategory</xpath>
+                            <value>
+                              <designationCategory></designationCategory>
+                            </value>
+                        </li> -->
+                        <li Class="PatchOperationReplace">
+                            <xpath>Defs/ThingDef[defName="Table_RoyalEndTable"]/designationCategory</xpath>
+                            <value>
+                              <designationCategory></designationCategory>
+                            </value>
+                        </li>
+                    </operations>
+                  </match>
+                </Operation>
+</Patch>

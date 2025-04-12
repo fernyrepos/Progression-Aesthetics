@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<!-- HIDE -->
+                <Operation Class="PatchOperationReplace">
+                  <success>Always</success>
+                  <xpath>Defs/ThingDef[defName="DA_OssuaryWall"]/designationCategory</xpath>
+                  <value>
+                        <designationCategory></designationCategory>
+                  </value>
+                </Operation>
+
+
+
+
+
+
+<!-- MORBID STYLE -->
+
+
+                <Operation Class="PatchOperationAdd">
+                  <success>Always</success>
+                  <xpath>Defs/StyleCategoryDef[defName="Morbid"]/thingDefStyles</xpath>
+                  <value>
+                        <li>
+                            <thingDef>Wall</thingDef>
+                            <styleDef>Ferny_MorbidWall</styleDef>
+                        </li>
+                  </value>
+                </Operation>
+
+
+
+
+
+                <Operation Class="PatchOperationConditional">
+                    <success>Always</success>
+                    <xpath>/Defs/ThingDef[defName = "Wall"]/comps/li[@Class = "CompProperties_Styleable"]</xpath>
+                    <nomatch Class="PatchOperationConditional">
+                        <success>Always</success>
+                        <xpath>/Defs/ThingDef[defName = "Wall"]/comps</xpath>
+                        <nomatch Class="PatchOperationAdd">
+                            <xpath>/Defs/ThingDef[defName = "Wall"]</xpath>
+                            <value>
+                                <comps>
+                                    <li Class="CompProperties_Styleable" />
+                                </comps>
+                            </value>
+                        </nomatch>
+                        <match Class="PatchOperationAdd">
+                            <xpath>/Defs/ThingDef[defName = "Wall"]/comps</xpath>
+                            <value>
+                                <li Class="CompProperties_Styleable" />
+                            </value>
+                        </match>
+                    </nomatch>
+                </Operation>
+
+
+
+
+</Patch>
