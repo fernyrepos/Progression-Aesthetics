@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
-		<defName>FernyFlags_HiddenDesignators</defName>
+		<defName>RFDoyle_HiddenDesignators</defName>
 		<hiddenDesignators>		
 			<li>RF_Banner_Doyle</li>	
 			<li>RF_Banner_Arcane</li>
