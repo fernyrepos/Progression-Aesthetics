@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>ferny_Doyleflags1</defName>
+		<category>Ferny_Flags</category>
+		<priority>1</priority>
+		<prop>RF_Banner_Doyle</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_Doyleflags2</defName>
+		<category>Ferny_Flags</category>
+		<priority>1</priority>
+		<prop>RF_Banner_Arcane</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>
