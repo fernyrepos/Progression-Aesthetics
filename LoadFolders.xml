@@ -72,8 +72,8 @@
     <li IfModActive="DSP.HalituisAmaricanous">Mods and Shit/Dune Style</li>
     <li IfModActive="rimsenal.Sophian">Mods and Shit/Rimsenal Sophian</li>
     <li IfModActive="rimsenal.techist">Mods and Shit/Rimsenal Techist</li>
-    <li IfModActive="finch.blood">Mods and Shit/Rimfantasy Sanguine</li>
-    <li IfModActive="addie.housevanilla">Mods and Shit/Rimfantasy Vanilla</li>
+    <li IfModActive="finch.blood">Mods and Shit/House Sanguine</li>
+    <li IfModActive="addie.housevanilla">Mods and Shit/House Van Illa</li>
     <li IfModActive="sierra.rf.housedoyle">Mods and Shit/Rimfantasy Doyle</li>
   </v1.5>
 </loadFolders>

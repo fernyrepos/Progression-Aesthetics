@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>ferny_SanguineFlag</defName>
+		<category>Ferny_Flags</category>
+		<priority>1</priority>
+		<prop>DevDesigner_BloodBanner</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>FernyHouseSanguineAesthetics_HiddenDesignators</defName>
+		<hiddenDesignators>		
+			<li>DevDesigner_BloodBanner</li>	
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>
