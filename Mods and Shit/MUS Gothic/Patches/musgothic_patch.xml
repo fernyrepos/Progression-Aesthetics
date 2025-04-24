@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/TerrainDef[defName="MUS_Gothicstyle_Floor_ScarletMosaicFloorTiles"]/designatorDropdown</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/TerrainDef[defName="MUS_Gothicstyle_Floor_ScarletCarpet"]/designatorDropdown</xpath>
+  </Operation>
+
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ThingDef[defName="MUS_Gothicstyle_Wall"]/designationCategory</xpath>
