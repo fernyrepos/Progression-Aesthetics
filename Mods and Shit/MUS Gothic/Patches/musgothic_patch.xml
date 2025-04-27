@@ -1000,18 +1000,6 @@
 		<researchPrerequisites></researchPrerequisites>
 	</value>
 </Operation>
-<Operation Class="PatchOperationRemove">
-  <success>Always</success>
-	<xpath>Defs/TerrainDef[@Name="ScarletCarpet"]/researchPrerequisites</xpath>
-	<value>
-		<researchPrerequisites></researchPrerequisites>
-	</value>
-</Operation>
-
-
-
-
-
 
 <Operation Class="PatchOperationRemove">
   <success>Always</success>
