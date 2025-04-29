@@ -28,13 +28,6 @@
                         <designationCategory></designationCategory>
                     </value>
                 </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="KK_CarvedPanel_Corner"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory></designationCategory>
-                    </value>
-                </Operation>
                 <Operation Class="PatchOperationRemove">
                     <success>Always</success>
                     <xpath>Defs/ThingDef[defName="KK_SimpleFrame"]/researchPrerequisites</xpath>
@@ -103,6 +96,23 @@
                     <success>Always</success>
                     <xpath>Defs/ThingDef[defName="KK_DoorCenterPanel"]/researchPrerequisites</xpath>
                 </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="KK_NormalPanel_Straight"]/researchPrerequisites</xpath>
+                </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="KK_NormalPanel_Corner"]/researchPrerequisites</xpath>
+                </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="KK_CarvedPanel_Straight"]/researchPrerequisites</xpath>
+                </Operation>
+                <Operation Class="PatchOperationRemove">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="KK_CarvedPanel_Corner"]/researchPrerequisites</xpath>
+                </Operation>
+
 
   <!--=========================Fixed Code============================-->
   
@@ -111,13 +121,6 @@
                     <xpath>Defs/ResearchProjectDef[defName="PenelsFramesResearch"]</xpath>
                 </Operation>
 
-                <Operation Class="PatchOperationRemove">
-                    <success>Always</success>
-                    <xpath>Defs/ResearchProjectDef[defName="DoubleFramesResearch"]</xpath>
-                </Operation>
-
-  <!--=========================Fixed Code============================-->
-  
                 <Operation Class="PatchOperationRemove">
                     <success>Always</success>
                     <xpath>Defs/ResearchProjectDef[defName="DoubleFramesResearch"]</xpath>
