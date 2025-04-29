@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedThrone</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedThrone</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedBrazier</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedBrazierDarklight</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedBrazierBlood</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedBrazier</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedTable2x2</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(4,4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedTableLarge</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedTable3x3</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.8,4.8)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedChair</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedChair</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.6,2.6)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.1,2.1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedRoyalBed</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/ProfanedRoyalBed</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfaneAlchemyBench</defName>
+		<graphicData> 
+			<texPath>Things/Building/Other/BotchJob_ProfaneAlchemyBench</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5,3.5)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedDoubleDoor</defName>
+		<graphicData> 
+			<texPath>Things/Building/Other/ProfanedDoor/ProfanedDoor2x1_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>BotchJob_ProfanedSingleDoor</defName>
+		<graphicData> 
+			<texPath>Things/Building/Other/ProfanedSingleDoor_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(2,1)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>

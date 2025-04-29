@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>FernyProfanedAesthetics_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>BotchJob_ProfanedBanner</li>			
+			<li>BotchJob_ProfanedChest</li>
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>
