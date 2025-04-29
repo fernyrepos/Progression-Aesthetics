@@ -38,13 +38,6 @@
 </Operation>
 <Operation Class="PatchOperationAdd">
     <success>Always</success>
-    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]</xpath>
-    <value>
-        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
-    </value>
-</Operation>
-<Operation Class="PatchOperationAdd">
-    <success>Always</success>
     <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]</xpath>
     <value>
         <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
