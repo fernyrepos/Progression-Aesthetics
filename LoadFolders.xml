@@ -75,5 +75,8 @@
     <li IfModActive="finch.blood">Mods and Shit/Rimfantasy Sanguine</li>
     <li IfModActive="addie.housevanilla">Mods and Shit/Rimfantasy Vanilla</li>
     <li IfModActive="sierra.rf.housedoyle">Mods and Shit/Rimfantasy Doyle</li>
+    <li IfModActive="cixwow.vfespaceraddon">Mods and Shit/VFE Spacer Addon</li>
+    <li IfModActive="lmgginspace.repairbed">Mods and Shit/Repair Bed</li>
+    <li IfModActive="farxmai2.vanillafurnitureexpandedpack">Mods and Shit/VE Furniture Additional Pack</li>
   </v1.5>
 </loadFolders>

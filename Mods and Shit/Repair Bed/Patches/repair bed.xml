@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="LMGG_Thing_RepairBed"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Furniture</designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="LMGG_Thing_RepairDoubleBed"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Furniture</designationCategory>
+    </value>
+  </Operation>
+</Patch>
