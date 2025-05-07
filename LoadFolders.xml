@@ -78,5 +78,6 @@
     <li IfModActive="cixwow.vfespaceraddon">Mods and Shit/VFE Spacer Addon</li>
     <li IfModActive="lmgginspace.repairbed">Mods and Shit/Repair Bed</li>
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">Mods and Shit/VE Furniture Additional Pack</li>
+    <li IfModActive="BotchJob.Profaned">Mods and Shit/Profaned</li>
   </v1.5>
 </loadFolders>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- REORGANIZE AND HIDE -->
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedThrone"]/designationCategory</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazier"]/designationCategory</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierDarklight"]/designationCategory</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierBlood"]/designationCategory</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedChest"]/designationCategory</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTable"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTableLarge"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedChair"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBed"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedRoyalBed"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedDoubleDoor"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+  <success>Always</success>
+  <xpath>Defs/ThingDef[defName="BotchJob_ProfanedSingleDoor"]</xpath>
+  <value>
+        <designationCategory></designationCategory>
+  </value>
+</Operation>
+
+
+  <!-- Research Prereqs Removed for Ideo Style buildings -->
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedThrone"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazier"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierDarklight"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBrazierBlood"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTable"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedTableLarge"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedChair"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedBed"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedRoyalBed"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedDoubleDoor"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BotchJob_ProfanedSingleDoor"]/researchPrerequisites</xpath>
+    <value>
+          <researchPrerequisites></researchPrerequisites>
+    </value>
+  </Operation>
+
+</Patch>
