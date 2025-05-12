@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+	<!-- Def Styles -->
+	<Operation Class="PatchOperationReplace">
+	  <success>Always</success>
+	  <xpath>Defs/StyleCategoryDef[defName="BotchJob_ProfanedStyleCategory"]/thingDefStyles</xpath>
+	  <value>
+			<thingDefStyles>
+				<li>
+					<thingDef>Column</thingDef>
+					<styleDef>BotchJob_ProfanedColumn</styleDef>
+				  </li>
+					<li>
+					<thingDef>Altar_Grand</thingDef>
+					<styleDef>BotchJob_ProfanedAltarGrand</styleDef>
+				  </li>
+				   <li MayRequire="Ludeon.RimWorld.Royalty">
+					<thingDef>Drape</thingDef>
+					<styleDef>BotchJob_ProfanedDrapeStyle</styleDef>
+				  </li>
+				  <li>
+					<thingDef>EndTable</thingDef>
+					<styleDef>BotchJob_ProfanedEndTable</styleDef>
+				  </li>
+				  <li>
+					<thingDef>Dresser</thingDef>
+					<styleDef>BotchJob_ProfanedDresser</styleDef>
+				  </li>
+				<li>
+					<thingDef>SculptureSmall</thingDef>
+					<styleDef>BotchJob_SculptureSmallProfaned</styleDef>
+				</li>
+				<li>
+					<thingDef>SculptureLarge</thingDef>
+					<styleDef>BotchJob_SculptureLargeProfaned</styleDef>
+				  </li>
+				  <li>
+					<thingDef>SculptureGrand</thingDef>
+					<styleDef>BotchJob_SculptureGrandProfaned</styleDef>
+				  </li>
+				  <li>
+					<thingDef>Lectern</thingDef>
+					<styleDef>BotchJob_ProfanedLectern</styleDef>
+				  </li>
+					<li>
+					<thingDef>Pew</thingDef>
+					<styleDef>BotchJob_ProfanedPew</styleDef>
+				  </li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">
+					<thingDef>GrandThrone</thingDef>
+					<styleDef>BotchJob_ProfanedThrone</styleDef>
+				  </li>
+				  <li MayRequire="van.dacrypts">
+					<thingDef>DA_SepulchralBrazier</thingDef>
+					<styleDef>BotchJob_ProfanedBrazier</styleDef>
+				  </li>
+				   <li MayRequire="van.dacrypts">
+					<thingDef>DA_DarklightSepulchralBrazier</thingDef>
+					<styleDef>BotchJob_ProfanedBrazierDarklight</styleDef>
+				  </li>
+				  <li MayRequire="van.dacrypts">
+					<thingDef>DA_BloodflameSepulchralBrazier</thingDef>
+					<styleDef>BotchJob_ProfanedBrazierBlood</styleDef>
+				  </li>
+				  <li>
+					<thingDef>Table2x2c</thingDef>
+					<styleDef>BotchJob_ProfanedTable</styleDef>
+				  </li>
+				<li>
+					<thingDef>Table3x3c</thingDef>
+					<styleDef>BotchJob_ProfanedTableLarge</styleDef>
+				</li>
+				<li MayRequire="Ludeon.RimWorld.Royalty">
+					<thingDef>Throne</thingDef>
+					<styleDef>BotchJob_ProfanedChair</styleDef>
+				  </li>
+				  <li>
+					<thingDef>Bed</thingDef>
+					<styleDef>BotchJob_ProfanedBed</styleDef>
+				  </li>
+				  <li>
+					<thingDef>RoyalBed</thingDef>
+					<styleDef>BotchJob_ProfanedRoyalBed</styleDef>
+				  </li>
+				  <li MayRequire="sierra.rf.medievaloverhaul">
+					<thingDef>RF_ArcaneCraftingBench</thingDef>
+					<styleDef>BotchJob_ProfaneAlchemyBench</styleDef>
+				  </li>
+				  <li MayRequire="trickity.seal.spirits">
+					<thingDef>T_SealedDoor</thingDef>
+					<styleDef>BotchJob_ProfanedDoubleDoor</styleDef>
+				  </li>
+					<li>
+					<thingDef>Door</thingDef>
+					<styleDef>BotchJob_ProfanedSingleDoor</styleDef>
+				  </li>
+			</thingDefStyles>
+	  </value>
+	</Operation>
+</Patch>
