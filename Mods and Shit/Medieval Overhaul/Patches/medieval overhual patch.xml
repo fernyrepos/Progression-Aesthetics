@@ -948,42 +948,42 @@
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Red"]/label</xpath>
 		<value>
-			<label>Comfy red bed</label>
+			<label>comfy red bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Green"]/label</xpath>
 		<value>
-			<label>Comfy green bed</label>
+			<label>comfy green bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_Rustic_Blue"]/label</xpath>
 		<value>
-			<label>Comfy blue bed</label>
+			<label>comfy blue bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Red"]/label</xpath>
 		<value>
-			<label>Comfy red double bed</label>
+			<label>comfy red double bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Green"]/label</xpath>
 		<value>
-			<label>Comfy green double bed</label>
+			<label>comfy green double bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
 		<xpath>Defs/ThingDef[defName="DankPyon_Bed_RusticDouble_Blue"]/label</xpath>
 		<value>
-			<label>Comfy blue double bed</label>
+			<label>comfy blue double bed</label>
 		</value>
 	</Operation>
 	<Operation Class="PatchOperationReplace">
