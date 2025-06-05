@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+  <defName>ferny_profaned</defName>
+  <category>Ferny_Flags</category>
+  <priority>1</priority>
+  <prop>BotchJob_ProfanedBanner</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_profaned2</defName>
+  <category>VFE_PropCategory_Medieval</category>
+  <priority>1</priority>
+  <prop>BotchJob_ProfanedChest</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+</Defs>
