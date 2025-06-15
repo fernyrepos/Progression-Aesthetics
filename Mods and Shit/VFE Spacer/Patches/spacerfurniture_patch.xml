@@ -2,69 +2,9 @@
 <Patch>              
 <!-- PATCHES -->
                 <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Bed_AdvBed"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Bed_AdvDoubleBed"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Table_IlluminatedDresser"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Table_IlluminatedEndTable"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Table_interactive_1x1c"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Table_interactive_2x2c"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Light_SpacerLamp"]</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationAdd">
-                    <xpath>Defs/ThingDef[defName="Spacer_OutdoorLamp"]</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="UltrascreenTV"]/designationCategory</xpath>
                     <value>
                         <designationCategory>Joy</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Shelf_RepairRack"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>Defs/ThingDef[defName="Seat_AdvChair"]/designationCategory</xpath>
-                    <value>
-                        <designationCategory>Furniture</designationCategory>
                     </value>
                 </Operation>
 </Patch>
