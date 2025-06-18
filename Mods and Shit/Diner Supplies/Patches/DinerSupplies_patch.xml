@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="DinerThingsBase"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Misc</designationCategory>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerF"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerF"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerI"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerI"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerM"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerM"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerK"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerK"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerH"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerH"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerL"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerL"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerG"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerG"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerD"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerD"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerC"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerJ"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerJ"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="DS_BurgerE"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="DS_BurgerE"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+
+</Patch>
