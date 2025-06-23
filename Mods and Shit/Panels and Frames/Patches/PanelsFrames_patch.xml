@@ -1,5 +1,72 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>     
+
+<!-- new shit, renaming the stuff -->
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DoorFrameX1Seamlessly"]/label</xpath>
+        <value>
+            <label>angular door frame</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DoorFrameX2Old"]/label</xpath>
+        <value>
+            <label>large door frame</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DoorFrameX1Old"]/label</xpath>
+        <value>
+            <label>door frame</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="KK_DoorPanels"]/label</xpath>
+        <value>
+            <label>door panel</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="KK_DoorCenterPanel"]/label</xpath>
+        <value>
+            <label>door panel</label>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="KKPanelsStraight"]/label</xpath>
+        <value>
+            <label>straight panel</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="KKPanelsCorner"]/label</xpath>
+        <value>
+            <label>corner panel</label>
+        </value>
+    </Operation>
+
+
+
+
+
+
+<!-- alright heres the old patches -->
+
                 <Operation Class="PatchOperationReplace">
                     <success>Always</success>
                     <xpath>Defs/ThingDef[defName="KK_NormalPanel_Straight"]/designationCategory</xpath>

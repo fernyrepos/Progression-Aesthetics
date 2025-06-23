@@ -20,6 +20,16 @@
 			<li>KK_StairsSingle</li>
 			<li>KK_StairsDouble</li>
 			<li>KK_DoorCenterPanel</li>
+<!-- New shit -->
+			<li>DoorFrameX1Seamlessly</li>
+			<li>KKOrnateDoorFrame</li>
+			<li>TechFlat_x1Seamlessly</li>
+			<li>TechFlat_x2Seamlessly</li>
+			<li>KKDoorPanels</li>
+			<li>KKPanelsStraight</li>
+			<li>KKPanelsCorner</li>
+			<li>DoorFrameX2Old</li>
+			<li>DoorFrameX1Old</li>
 		</hiddenDesignators>							
 	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
 </Defs>

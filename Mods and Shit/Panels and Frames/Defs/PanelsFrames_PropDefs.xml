@@ -1,123 +1,52 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEProps.PropDef>
-		<defName>ferny_frame1</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_SimpleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame2</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_CommonFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame3</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_TechFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame4</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_SimpleDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame5</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_CommonDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame6</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_TechDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame7</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_DoorPanels</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame8</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_SimpleFlatFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame9</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_CommonFlatFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame10</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_TechFlatFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame11</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_SimpleFlatDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame12</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_CommonFlatDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame13</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_TechFlatDoubleFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame14</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_SimpleOrnateFrame</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame15</defName>
-		<category>Ferny_Elevation</category>
-		<priority>1</priority>
-		<prop>KK_StairsSingle</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame16</defName>
-		<category>Ferny_Elevation</category>
-		<priority>1</priority>
-		<prop>KK_StairsDouble</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_frame17</defName>
-		<category>Ferny_Frames</category>
-		<priority>1</priority>
-		<prop>KK_DoorCenterPanel</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-
+<VFEProps.PropDef>
+	<defName>ferny_frame12</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>DoorFrameX2Old</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame13</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>DoorFrameX1Old</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame5</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>DoorFrameX1Seamlessly</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame6</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>KKOrnateDoorFrame</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame9</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>KKDoorPanels</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame10</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>KKPanelsStraight</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_frame11</defName>
+	<category>Ferny_Frames</category>
+	<priority>1</priority>
+	<prop>KKPanelsCorner</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
 </Defs>
