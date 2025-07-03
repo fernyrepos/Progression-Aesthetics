@@ -87,4 +87,7 @@
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">Mods and Shit/VE Furniture Additional Pack</li>
     <li IfModActive="dsp.lun">Mods and Shit/Diner Supplies</li>
   </v1.5>
+  <v1.6>
+    <li IfModActive="vanillaexpanded.vfearchitect">1.6/Mods and Shit/VFE Architect</li>
+  </v1.6>
 </loadFolders>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_HedgeWall"]/label</xpath>
+                    <value>
+                        <label>trimmed hedge</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="VFEArch_FineWall"]/label</xpath>
+                    <value>
+                        <label>pretty wall</label>
+                    </value>
+                </Operation>
+</Patch>
