@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Signs and Comments</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+    <operations>
+
+
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="BMT_FossilInfoSmallBase"]/designatorDropdown</xpath>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="BMT_FossilInfoMedBase"]/designatorDropdown</xpath>
+      </li>
+
+      <li Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="BMT_FossilInfoLargeBase"]/designatorDropdown</xpath>
+      </li>
+
+      <!-- Enable drawGUIOverlay for Small infographic base -->
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <!-- Enable drawGUIOverlay for Medium infographic base -->
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoMedBase"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <!-- Enable drawGUIOverlay for Large infographic base -->
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoLargeBase"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <!-- Change designationCategory to Misc for Small, Medium, and Large infographic bases -->
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="BMT_FossilInfoBase"]/designationCategory</xpath>
+        <value>
+          <designationCategory>Misc</designationCategory>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]</xpath>
+          <value>
+            <comps>
+              <li Class="Dark.Signs.CompProperties_Sign">
+                <canEditContent>true</canEditContent>
+                <canBeEmpty>true</canBeEmpty>
+                <defaultContents></defaultContents>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[@Name="BMT_FossilInfoSmallBase" or @Name="BMT_FossilInfoMedBase" or @Name="BMT_FossilInfoLargeBase"]/comps</xpath>
+          <value>
+            <li Class="Dark.Signs.CompProperties_Sign">
+              <canEditContent>true</canEditContent>
+              <canBeEmpty>true</canBeEmpty>
+              <defaultContents></defaultContents>
+            </li>
+          </value>
+        </match>
+      </li>
+
+    </operations>
+		</match>
+	</Operation>
+</Patch>

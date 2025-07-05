@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="SculpturePiller"]/label</xpath>
+                    <value>
+                        <label>grand pillar</label>
+                    </value>
+                </Operation>
+</Patch>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Clocks</defName>
+		<label>Clocks</label>
+		<description>Begin building clocks that can wake up colonists and mark the passage of time.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+		<li>ComplexFurniture</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>ferny_gothicdecoration1</defName>
+		<category>VFE_PropCategory_Misc</category>
+		<priority>1</priority>
+		<prop>Decoration</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>

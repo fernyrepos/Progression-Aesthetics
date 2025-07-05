@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyArchitectureOfRimCorners_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>AR_EaveInnerCorner</li>
+			<li>AR_StonyEaveInnerCorner</li>
+			<li>AR_StonyEaveInnerCornerSmall</li>
+			<li>AR_StonyEaveOuterCornerSmall</li>
+			<li>AR_StonyEaveOuterCorner</li>
+			<li>AR_WoodyEaveInnerCornerSmall</li>
+			<li>AR_WoodyEaveInnerCorner</li>
+			<li>AR_WoodyEaveOuterCornerSmall</li>
+			<li>AR_WoodyEaveOuterCorner</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

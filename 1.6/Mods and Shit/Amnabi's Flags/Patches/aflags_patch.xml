@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- Bye category -->
+                <Operation Class="PatchOperationRemove">
+                    <xpath>Defs/ThingDef[defName="AMN_WallFlag"]/designatorDropdown</xpath>
+                </Operation>
+
+
+<!-- Renames -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMN_WallFlag"]/label</xpath>
+                    <value>
+                        <label>Custom wall flag</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMN_PoleFlag"]/label</xpath>
+                    <value>
+                        <label>Custom flagpole</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMN_PoleFlagTall"]/label</xpath>
+                    <value>
+                        <label>Custom tall flagpole</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMN_PoleFlagVertical"]/label</xpath>
+                    <value>
+                        <label>Custom vertical flagpole</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="AMN_PoleFlagTallVertical"]/label</xpath>
+                    <value>
+                        <label>Custom tall vertical flagpole</label>
+                    </value>
+                </Operation>
+</Patch>

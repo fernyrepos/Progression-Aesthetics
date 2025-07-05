@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+
+
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign1</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Chungking</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign2</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Dna</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign3</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Fern</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign4</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Fish</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign5</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Footprints</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign6</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Shell</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign7</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Leaelly</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign8</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1Text</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign9</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo1TriSkull</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign10</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Dna</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign11</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Road</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign12</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Footprints</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign13</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Gallimimus</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign14</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Iguanodon</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign15</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Mosa</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign16</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Plants</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign17</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Ptero</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign18</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Spino</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign19</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo2Trex</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign20</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Allosaurus</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign21</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Ankleo</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign22</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Measured</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign23</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Chlorosaurus</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign24</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Cloning</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign25</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Footprints</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign26</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Dying</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign27</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Cycle</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign28</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Raptors</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+    <defName>ferny_biomesfossilssign29</defName>
+    <category>Ferny_Signs</category>
+    <priority>2</priority>
+    <prop>BMT_FossilInfo3Triceratops</prop>
+    <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+
+
+
+
+
+</Defs>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch> 
+<!-- Rebuild glass integration -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReBuild: Doors and Corners</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+		<success>Always</success>	
+			<operations>
+				<li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="SD_GlassDoorDefault"]/costList</xpath>
+                    <value>
+                        <costList>
+                            <Steel>40</Steel>
+                            <ComponentIndustrial>4</ComponentIndustrial>
+                            <RB_Glass>5</RB_Glass>
+                        </costList>
+                    </value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+<!-- Makin sure lasers keep their recipe -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDefault"]</xpath>
+        <value>
+            <costList>
+                <Steel>40</Steel>
+                <ComponentIndustrial>4</ComponentIndustrial>
+            </costList>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDouble"]</xpath>
+        <value>
+            <costList>
+                <Steel>40</Steel>
+                <ComponentIndustrial>4</ComponentIndustrial>
+            </costList>
+        </value>
+    </Operation>
+
+
+<!-- Nerfing -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[@Name="SD_GlassDoorBase"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDouble"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorIrisEnhancedDouble"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleDefault"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleCascading"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleTESTING"]/statBases/MaxHitPoints</xpath>
+        <value>
+            <MaxHitPoints>160</MaxHitPoints>
+        </value>
+    </Operation>
+<!-- Research -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDefault"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_SpacerDoors</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+
+<!-- Own dropdown for laser doors -->
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDefault"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_LaserDoors</designatorDropdown>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDouble"]</xpath>
+        <value>
+            <designatorDropdown>Ferny_LaserDoors</designatorDropdown>
+        </value>
+    </Operation>
+
+
+
+<!-- Renaming shit to make more sense -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleTESTING"]/label</xpath>
+        <value>
+            <label>double portal spacer door (2x1)</label>
+        </value>
+    </Operation>
+
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_LaserDoorDefault"]/label</xpath>
+        <value>
+            <label>laser door (1x1)</label>
+        </value>
+    </Operation>
+
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDefault"]/label</xpath>
+        <value>
+            <label>spacer door (1x1)</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorSlidingSingle"]/label</xpath>
+        <value>
+            <label>sliding spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorRollingVaultSingle"]/label</xpath>
+        <value>
+            <label>rolling vault spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorAngledFading"]/label</xpath>
+        <value>
+            <label>angled-fading spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorArrow"]/label</xpath>
+        <value>
+            <label>arrow spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorSlanted"]/label</xpath>
+        <value>
+            <label>slanted spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorIris"]/label</xpath>
+        <value>
+            <label>iris spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorIrisEnhanced"]/label</xpath>
+        <value>
+            <label>enhanced iris spacer door (1x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorPortal"]/label</xpath>
+        <value>
+            <label>portal spacer door (1x1)</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorIrisEnhancedDouble"]/label</xpath>
+        <value>
+            <label>double enhanced iris spacer door (2x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleDefault"]/label</xpath>
+        <value>
+            <label>double spacer door (2x1)</label>
+        </value>
+    </Operation>
+    
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="SD_GlassDoorDoubleCascading"]/label</xpath>
+        <value>
+            <label>double cascading spacer door (2x1)</label>
+        </value>
+    </Operation>
+
+</Patch>

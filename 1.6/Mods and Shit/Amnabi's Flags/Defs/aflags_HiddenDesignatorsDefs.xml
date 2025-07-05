@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyFlags_HiddenDesignators</defName>
+		<hiddenDesignators>		
+			<li>AMN_WallFlag</li>	
+			<li>AMN_PoleFlag</li>
+			<li>AMN_PoleFlagTall</li>
+			<li>AMN_PoleFlagVertical</li>
+			<li>AMN_PoleFlagTallVertical</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

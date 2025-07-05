@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <!-- Dropdowns  -->
+    <DesignatorDropdownGroupDef>
+        <defName>Ferny_LaserDoors</defName>
+    </DesignatorDropdownGroupDef>
+
+</Defs>

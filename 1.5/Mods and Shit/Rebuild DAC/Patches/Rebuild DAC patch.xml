@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Architect</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+    <operations>
+
+
+
+
+                        <li Class="PatchOperationAdd">
+                            <xpath>/Defs</xpath>
+                            <value>
+                            <ReplaceLib.ReplacerDef>
+                                <defName>RebuildCellWallFerny</defName>
+                                <replacers>
+                                    <li>
+                                        <replace>VFEArch_CellWall</replace>
+                                        <with>RB_CellWall</with>
+                                    </li>
+                                </replacers>
+                            </ReplaceLib.ReplacerDef>
+                            </value>
+                        </li>
+
+
+
+    <li Class="PatchOperationAddModExtension">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="RB_CellWall"]</xpath>
+        <value>
+			<li Class="VFEArchitect.BuildingExtension_PrisonerProof"></li>
+        </value>
+    </li>
+
+    <li Class="PatchOperationAdd">
+        <success>Always</success>
+			<xpath>/Defs</xpath>
+			<value>
+                <ResearchProjectDef>
+                    <defName>Ferny_PrisonArchitecture</defName>
+                    <label>Prison architecture</label>
+                    <description>Begin building structures that can keep prisoners contained.</description>
+                    <baseCost>500</baseCost>
+                    <techLevel>Medieval</techLevel>
+                    <researchViewX>1.00</researchViewX>
+                    <researchViewY>2.00</researchViewY>
+                    <prerequisites>
+                        <li>Smithing</li>
+                    </prerequisites>
+                </ResearchProjectDef>
+			</value>
+    </li>
+
+
+
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RB_CellWall"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_PrisonArchitecture</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+                <li Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="VFEArch_CellDoor"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_PrisonArchitecture</li>
+                        </researchPrerequisites>
+                    </value>
+                </li>
+
+    </operations>
+		</match>
+	</Operation>
+
+
+
+
+
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="RB_RusticWall"]/label</xpath>
+                    <value>
+                        <label>weak wall</label>
+                    </value>
+                </Operation>
+
+
+
+</Patch>

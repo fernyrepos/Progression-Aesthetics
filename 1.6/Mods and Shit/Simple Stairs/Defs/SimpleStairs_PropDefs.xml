@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>ferny_stairs1</defName>
+		<category>Ferny_Elevation</category>
+		<priority>1</priority>
+		<prop>Gomi_SimpleStair</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_stairs2</defName>
+		<category>Ferny_Elevation</category>
+		<priority>1</priority>
+		<prop>Gomi_Handrail</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_stairs3</defName>
+		<category>Ferny_Elevation</category>
+		<priority>1</priority>
+		<prop>Gomi_HighWall</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_stairs4</defName>
+		<category>Ferny_Elevation</category>
+		<priority>1</priority>
+		<prop>Gomi_FloorFence</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>

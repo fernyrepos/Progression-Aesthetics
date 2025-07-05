@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>Ferny_MorbidWall</defName>
+		<graphicData>
+			<texPath>Things/Building/OssuaryWall/OssuaryWall</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<linkType>CornerFiller</linkType>
+		</graphicData>
+		<uiIconPath>Things/Building/OssuaryWall/OssuaryWall_MenuIcon</uiIconPath>
+	</ThingStyleDef>
+</Defs>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightA_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightB_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightC_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightD_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightE_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightL_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/VanillaFurnitureExpanded.HiddenDesignatorsDef[defName="AProps_HiddenDesignators"]/hiddenDesignators/li[text()="VFEPD_AP_LamplightT_Functional"]</xpath>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightC_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightD_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightE_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightL_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightT_Functional"]</xpath>
+    <value>
+        <designatorDropdown>Ferny_StreetLamps</designatorDropdown>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightC_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightD_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightE_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightL_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightT_Functional"]/label</xpath>
+    <value>
+        <label>street lamp</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightC_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightD_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightE_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightL_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightT_Functional"]/uiIconScale</xpath>
+    <value>
+        <uiIconScale>0.35</uiIconScale>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightA_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightB_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightC_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightD_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightE_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightL_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VFEPD_AP_LamplightT_Functional"]</xpath>
+    <value>
+        <uiIconOffset>(0, 0.2)</uiIconOffset>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightA_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightB_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightC_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightD_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightE_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightL_Functional"]</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <xpath>Defs/VFEProps.PropDef[defName="AP_Prop_Park_LamplightT_Functional"]</xpath>
+</Operation>
+
+
+</Patch>

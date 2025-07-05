@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="LawThingsBase"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Misc</designationCategory>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Ashtray"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Ashtray"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Cuffs"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Cuffs"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Revolver"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Revolver"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Magni"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Magni"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Recorder"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Recorder"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Glass"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Glass"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Jack"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Jack"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_IdcardsA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_IdcardsA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_IdcardsB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_IdcardsB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_IdcardsC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_IdcardsC"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_PaperpackA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_PaperpackA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_PaperpackB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_PaperpackB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_PaperA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_PaperA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_PaperB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_PaperB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_MonitorA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_MonitorA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_MonitorB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_MonitorB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_MonitorC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_MonitorC"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Keyboard"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Keyboard"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Reader"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Reader"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_LBookA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_LBookA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_LBookB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_LBookB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_LBookC"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_LBookC"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_FilebookA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_FilebookA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_FilebookB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_FilebookB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_WantedA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_WantedA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_WantedB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_WantedB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_Disk"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_Disk"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_FileA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_FileA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_FileB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_FileB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_OpenfileA"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_OpenfileA"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  
+  <Operation Class="PatchOperationConditional">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="LO_OpenfileB"]/designatorDropdown</xpath>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>/Defs/ThingDef[defName="LO_OpenfileB"]/designatorDropdown</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

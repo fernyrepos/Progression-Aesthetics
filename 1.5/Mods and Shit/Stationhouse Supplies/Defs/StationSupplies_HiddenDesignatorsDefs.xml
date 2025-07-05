@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VanillaFurnitureExpanded.HiddenDesignatorsDef>
+		<defName>FernyStationSupplies_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>LO_Ashtray</li>
+			<li>LO_Revolver</li>
+			<li>LO_Cuffs</li>
+			<li>LO_Magni</li>
+			<li>LO_Recorder</li>
+			<li>LO_Glass</li>
+			<li>LO_Jack</li>
+			<li>LO_IdcardsA</li>
+			<li>LO_IdcardsB</li>
+			<li>LO_IdcardsC</li>
+			<li>LO_PaperpackA</li>
+			<li>LO_PaperpackB</li>
+			<li>LO_PaperA</li>
+			<li>LO_PaperB</li>
+			<li>LO_MonitorA</li>
+			<li>LO_MonitorB</li>
+			<li>LO_MonitorC</li>
+			<li>LO_Keyboard</li>
+			<li>LO_Reader</li>
+			<li>LO_LBookA</li>
+			<li>LO_LBookB</li>
+			<li>LO_LBookC</li>
+			<li>LO_FilebookA</li>
+			<li>LO_FilebookB</li>
+			<li>LO_WantedA</li>
+			<li>LO_WantedB</li>
+			<li>LO_Disk</li>
+			<li>LO_FileA</li>
+			<li>LO_OpenfileA</li>
+			<li>LO_FileB</li>
+			<li>LO_OpenfileB</li>
+		</hiddenDesignators>							
+	</VanillaFurnitureExpanded.HiddenDesignatorsDef>
+</Defs>

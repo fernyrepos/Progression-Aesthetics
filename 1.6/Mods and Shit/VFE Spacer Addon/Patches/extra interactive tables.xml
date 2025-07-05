@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Table_interactive_1x2c"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Furniture</designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Table_interactive_3x3c"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Furniture</designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Table_interactive_2x4c"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Furniture</designationCategory>
+    </value>
+  </Operation>
+</Patch>

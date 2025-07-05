@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+	<!-- PATCHES -->
+	<Operation Class="PatchOperationConditional">
+		<xpath>/Defs/DesignationCategoryDef[defName="AOMorefurniture"]</xpath>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>/Defs/ThingDef[designationCategory="AOMorefurniture"]/designationCategory</xpath>
+					<value>
+						<designationCategory>Furniture</designationCategory>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<xpath>/Defs/DesignationCategoryDef[defName="AOMorefurniture"]</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
+		<value>
+			<label>Royal furniture</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Medieval Overhaul</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<!-- ROYAL FURNITURE -->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="Seat_RoyalArmchair"]/designationCategory</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Seat_RoyalArmchair"]/designationCategory</xpath>
+						<value>
+							<designationCategory/>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Seat_RoyalArmchair"]</xpath>
+						<value>
+							<designationCategory/>
+						</value>
+					</nomatch>
+				</li>
+				<!-- Supreme 2x2 -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/label</xpath>
+					<value>
+						<label>supreme table (2x2)</label>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]</xpath>
+					<value>
+						<description>A ridiculously deluxe table superior to the standard royal fare. A table for only the truest of nobility.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>110</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x2c"]/statBases/Beauty</xpath>
+					<value>
+						<Beauty>70</Beauty>
+					</value>
+				</li>
+				<!-- Supreme 2x4 -->
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/label</xpath>
+					<value>
+						<label>supreme table (2x4)</label>
+					</value>
+				</li>
+				<li Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]</xpath>
+					<value>
+						<description>A ridiculously deluxe table superior to the standard royal fare. A table for only the truest of nobility.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/costStuffCount</xpath>
+					<value>
+						<costStuffCount>200</costStuffCount>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName="DankPyon_RoyalTable2x4c"]/statBases/Beauty</xpath>
+					<value>
+						<Beauty>90</Beauty>
+					</value>
+				</li>
+				<!-- Disable simple bed -->
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="Bed_Simple"]/designationCategory</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="Bed_Simple"]/designationCategory</xpath>
+						<value>
+							<designationCategory IsNull="True"/>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="Bed_Simple"]</xpath>
+						<value>
+							<designationCategory IsNull="True"/>
+						</value>
+					</nomatch>
+				</li>
+				<li Class="PatchOperationConditional">
+					<xpath>/Defs/ThingDef[defName="VFE_Bed_SimpleDouble"]/designationCategory</xpath>
+					<match Class="PatchOperationReplace">
+						<xpath>/Defs/ThingDef[defName="VFE_Bed_SimpleDouble"]/designationCategory</xpath>
+						<value>
+							<designationCategory IsNull="True"/>
+						</value>
+					</match>
+					<nomatch Class="PatchOperationAdd">
+						<xpath>/Defs/ThingDef[defName="VFE_Bed_SimpleDouble"]</xpath>
+						<value>
+							<designationCategory IsNull="True"/>
+						</value>
+					</nomatch>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+</Patch>

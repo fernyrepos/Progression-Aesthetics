@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyArchitectureOfRim_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>AR_EaveWoody</li>
+			<li>AR_EaveStony</li>
+			<li>AR_Eave</li>
+			<li>AR_EaveWoody_half</li>
+			<li>AR_EaveStony_half</li>
+			<li>AR_Eave_half</li>
+			<li>AR_Rafter</li>
+			<li>AR_EaveCorner</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernySignsComments_HiddenDesignators</defName>
+		<hiddenDesignators>		
+
+			<li>RoomSign</li>
+			<li>SimpleSign</li>
+			<li>SignWoodenMulti</li>
+			<li>SignHome</li>
+			<li>SignArrow_Wood</li>
+			<li>SignHanging</li>
+			<li>SignPanelWood</li>
+			<li>SignCairn</li>
+			<li>SignObelisk</li>
+			<li>SignSlab</li>
+			<li>SignPlaque</li>
+			<li>SignWallBasic</li>
+			<li>SignWallLED</li>
+			<li>SignWallLargeLit</li>
+			<li>SignWallNeonOpen</li>
+			<li>SignWallNeonCocktail</li>
+			<li>SignIndustrial</li>
+			<li>SignHangingIndustrial</li>
+			<li>SignPanel</li>
+			<li>SignHazard</li>
+			<li>SignWetFloor</li>
+			<li>SignHighway</li>
+			<li>SignNature</li>
+			<li>SignBillboard</li>
+			<li>SignRoadLED</li>
+			<li>SignHologram</li>
+			<li>SignArchWood</li>
+			<li>SignArchWoodRustic</li>
+
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

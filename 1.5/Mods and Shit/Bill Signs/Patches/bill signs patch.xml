@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Signs and Comments</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[@Name="BDsSignBase"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="BDsSignBase"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[@Name="BDsSignBase"]</xpath>
+          <value>
+            <comps>
+              <li Class="Dark.Signs.CompProperties_Sign">
+                <canEditContent>true</canEditContent>
+                <canBeEmpty>true</canBeEmpty>
+                <defaultContents></defaultContents>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[@Name="BDsSignBase"]/comps</xpath>
+          <value>
+            <li Class="Dark.Signs.CompProperties_Sign">
+              <canEditContent>true</canEditContent>
+              <canBeEmpty>true</canBeEmpty>
+              <defaultContents></defaultContents>
+            </li>
+          </value>
+        </match>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <li Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@Name="BDsSignLargeBase"]/designationCategory</xpath>
+        <value>
+          <designationCategory>Misc</designationCategory>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]</xpath>
+          <value>
+            <comps>
+              <li Class="Dark.Signs.CompProperties_Sign">
+                <canEditContent>true</canEditContent>
+                <canBeEmpty>true</canBeEmpty>
+                <defaultContents></defaultContents>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[@Name="BDsSignLargeBase"]/comps</xpath>
+          <value>
+            <li Class="Dark.Signs.CompProperties_Sign">
+              <canEditContent>true</canEditContent>
+              <canBeEmpty>true</canBeEmpty>
+              <defaultContents></defaultContents>
+            </li>
+          </value>
+        </match>
+      </li>
+
+    </operations>
+		</match>
+	</Operation>
+
+
+
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[@Name="BDsSignBase"]/designationCategory</xpath>
+    <value>
+          <designationCategory>Misc</designationCategory>
+    </value>
+  </Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Boomalope"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Caution"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Electric"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Exit"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Fire"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_MechA"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_MechB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Royalty"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Turret"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsForbidding_Weapon"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Church"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_ChurchB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Comms"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Dining"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Droppod"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Lab"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Meditation"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Mine"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Prison"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_PrisonB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Reactor"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Parkin"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Toilet"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Trading"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocation_Workshop"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Church"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_ChurchB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Comms"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Dining"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Droppod"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Hangar"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Lab"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Meditation"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Mine"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Prison"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_PrisonB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Reactor"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Toilet"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Trading"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Workshop"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Welcome"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_WelcomeB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_Royal"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationLarge_RoyalB"]/designatorDropdown</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationSpecial_Armory"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationSpecial_Exit"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationSpecial_Medical"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationSpecial_Royalty"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsLocationSpecial_Shelter"]/designatorDropdown</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Boomalope"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Caution"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Electric"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Exit"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_GasMask"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Helmet"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_MechA"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_MechB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Royalty"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Turret"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsSuggestive_Weapon"]/designatorDropdown</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarning_GenericA"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarning_GenericB"]/designatorDropdown</xpath>
+</Operation>
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Boomalope"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Caution"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Cold"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Electric"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Explosive"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Fire"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Hot"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Landmine"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Machinery"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_MechA"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_MechB"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Radioactive"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Toxic"]/designatorDropdown</xpath>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="BDsSign_SignsWarningLarge_Turret"]/designatorDropdown</xpath>
+</Operation>
+
+</Patch>

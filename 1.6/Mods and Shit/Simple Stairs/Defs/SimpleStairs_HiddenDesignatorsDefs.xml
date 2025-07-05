@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyStairs_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>Gomi_SimpleStair</li>
+			<li>Gomi_Handrail</li>
+			<li>Gomi_HighWall</li>
+			<li>Gomi_FloorFence</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

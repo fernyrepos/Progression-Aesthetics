@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>     
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ZCL_CuckooClock"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_Clocks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ZCL_GrandfatherClock"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_Clocks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ZCL_ModernGrandfatherClock"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_Clocks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ZCL_AlarmClock"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Ferny_Clocks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="ZCL_ElectronicAlarmClock"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        	<li>Electricity</li>
+                        	<li>Ferny_Clocks</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+</Patch>

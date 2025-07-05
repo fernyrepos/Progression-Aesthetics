@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+<!-- PATCHES -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="UltrascreenTV"]/designationCategory</xpath>
+                    <value>
+                        <designationCategory>Joy</designationCategory>
+                    </value>
+                </Operation>
+</Patch>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms1</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>RoomSign</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms2</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SimpleSign</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms3</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWoodenMulti</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms4</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHome</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms5</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignArrow_Wood</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms6</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHanging</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms7</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignPanelWood</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms8</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignCairn</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms9</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignObelisk</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms10</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignSlab</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms11</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignPlaque</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms12</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWallBasic</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms13</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWallLED</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms14</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWallLargeLit</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms15</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWallNeonOpen</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms16</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWallNeonCocktail</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms17</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignIndustrial</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms18</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHangingIndustrial</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms19</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignPanel</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms20</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHazard</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms21</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignWetFloor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms22</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHighway</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms23</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignNature</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms24</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignBillboard</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms25</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignRoadLED</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms26</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignHologram</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms27</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignArchWood</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms28</defName>
+	<category>Ferny_Signs</category>
+	<priority>2</priority>
+	<prop>SignArchWoodRustic</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+	<defName>ferny_signsandcomms29</defName>
+	<category>Ferny_Signs</category>
+	<priority>1</priority>
+	<prop>Comment</prop>
+	<useMatsInsteadOfSilver>false</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+
+
+
+</Defs>

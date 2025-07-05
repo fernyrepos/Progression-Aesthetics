@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyMUSFishing_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>MUS_Fishing_DecorativeA</li>
+			<li>MUS_Fishing_DecorativeB</li>
+			<li>MUS_Fishing_DecorativeC</li>
+			<li>MUS_Fishing_DecorativeD</li>
+			<li>MUS_Fishing_DecorativeE</li>
+			<li>MUS_Fishing_DecorativeF</li>
+			<li>MUS_Fishing_DecorativeG</li>
+			<li>MUS_Fishing_DecorativeH</li>
+			<li>MUS_Fishing_DecorativeI</li>
+			<li>MUS_Fishing_DecorativeJ</li>
+			<li>MUS_Fishing_DecorativeK</li>
+			<li>MUS_Fishing_DecorativeL</li>
+			<li>MUS_Fishing_DecorativeM</li>
+			<li>MUS_Fishing_DecorativeN</li>
+			<li>MUS_Fishingstyle_wall</li>
+			<li>MUS_Fishingstyle_Column</li>
+			<li>MUS_Fishingstyle_DecorativeColumn</li>
+			<li>MUS_Fishingstyle_FishTankDecorativeColumn</li>
+			<li>MUS_Fishing_CaneChair</li>
+			<li>MUS_Fishing_CaneBench</li>
+			<li>MUS_Fishing_RattanTable</li>
+			<li>MUS_Fishing_RattanLowTable</li>
+			<li>MUS_Fishing_RattanCabinet</li>
+			<li>MUS_Fishing_RattanBed</li>
+			<li>MUS_Fishing_RattanDoubleBed</li>
+			<li>MUS_Fishing_Trinketry</li>
+			<li>MUS_Fishing_Potting</li>
+			<li>MUS_Fishing_RattanCarpet</li>
+			<li>MUS_Fishingstyle_FishTank</li>
+			<li>MUS_Fishingstyle_SmallFishTank</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

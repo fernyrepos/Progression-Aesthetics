@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul1</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>DankPyon_RusticRoomDivider1x2c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul2</defName>
+  <category>Ferny_Flags</category>
+  <priority>2</priority>
+  <prop>DankPyon_BannerMoonCult</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul3</defName>
+  <category>Ferny_Flags</category>
+  <priority>3</priority>
+  <prop>DankPyon_BannerSoren</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul4</defName>
+  <category>Ferny_Flags</category>
+  <priority>4</priority>
+  <prop>DankPyon_BannerAmboise</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul5</defName>
+  <category>Ferny_Flags</category>
+  <priority>5</priority>
+  <prop>DankPyon_BannerHesse</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul6</defName>
+  <category>Ferny_Flags</category>
+  <priority>6</priority>
+  <prop>DankPyon_BannerOswin</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul7</defName>
+  <category>Ferny_Flags</category>
+  <priority>7</priority>
+  <prop>DankPyon_BannerPlain</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul8</defName>
+  <category>Ferny_Flags</category>
+  <priority>8</priority>
+  <prop>DankPyon_BannerCrow</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul9</defName>
+  <category>Ferny_Flags</category>
+  <priority>9</priority>
+  <prop>DankPyon_BannerArrow</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul10</defName>
+  <category>Ferny_Flags</category>
+  <priority>10</priority>
+  <prop>DankPyon_BannerHand</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul11</defName>
+  <category>Ferny_Flags</category>
+  <priority>11</priority>
+  <prop>DankPyon_BannerAxe</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul12</defName>
+  <category>Ferny_Flags</category>
+  <priority>12</priority>
+  <prop>DankPyon_BannerSun</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul13</defName>
+  <category>Ferny_Flags</category>
+  <priority>13</priority>
+  <prop>DankPyon_BannerLindwurm</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul14</defName>
+  <category>VFE_PropCategory_Medieval</category>
+  <priority>14</priority>
+  <prop>DankPyon_BarrelWater</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul15</defName>
+  <category>VFE_PropCategory_Medieval</category>
+  <priority>15</priority>
+  <prop>DankPyon_RusticEmptyShelf</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul16</defName>
+  <category>VFE_PropCategory_Medieval</category>
+  <priority>16</priority>
+  <prop>DankPyon_RusticEmptyShelf1x2c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul17</defName>
+  <category>Ferny_Frames</category>
+  <priority>17</priority>
+  <prop>DankPyon_Frame_Log</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul18</defName>
+  <category>VFE_PropCategory_Park</category>
+  <priority>18</priority>
+  <prop>DankPyon_Fountain1x1c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul19</defName>
+  <category>VFE_PropCategory_Park</category>
+  <priority>19</priority>
+  <prop>DankPyon_Fountain2x2c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul20</defName>
+  <category>Ferny_Dining</category>
+  <priority>20</priority>
+  <prop>DankPyon_OnTop_Bottle_Milk</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul21</defName>
+  <category>Ferny_Dining</category>
+  <priority>21</priority>
+  <prop>DankPyon_OnTop_Bottle_Ale</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul22</defName>
+  <category>Ferny_Dining</category>
+  <priority>22</priority>
+  <prop>DankPyon_OnTop_Bottle_Mead</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul23</defName>
+  <category>Ferny_Dining</category>
+  <priority>23</priority>
+  <prop>DankPyon_OnTop_Bottle_Wine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul24</defName>
+  <category>Ferny_Dining</category>
+  <priority>24</priority>
+  <prop>DankPyon_OnTop_Bottle_MulberryWine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul25</defName>
+  <category>Ferny_Dining</category>
+  <priority>25</priority>
+  <prop>DankPyon_OnTop_Bottle_IceWine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul26</defName>
+  <category>Ferny_Dining</category>
+  <priority>26</priority>
+  <prop>DankPyon_OnTop_Bottle_GriffonWine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul27</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>27</priority>
+  <prop>DankPyon_OnTop_Scribe_StackPaper</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul28</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>28</priority>
+  <prop>DankPyon_OnTop_Scribe_ScrollAndInkwell</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul29</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>29</priority>
+  <prop>DankPyon_OnTop_Scribe_Book</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul30</defName>
+  <category>Ferny_Dining</category>
+  <priority>30</priority>
+  <prop>DankPyon_OnTop_Kitchen_Bowl</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul31</defName>
+  <category>Ferny_Dining</category>
+  <priority>31</priority>
+  <prop>DankPyon_OnTop_Kitchen_Plate</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul32</defName>
+  <category>VFE_PropCategory_Kitchen</category>
+  <priority>32</priority>
+  <prop>DankPyon_OnTop_Kitchen_CookingPot</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul33</defName>
+  <category>Ferny_Dining</category>
+  <priority>33</priority>
+  <prop>DankPyon_OnTop_Kitchen_Cup</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul34</defName>
+  <category>Ferny_Dining</category>
+  <priority>34</priority>
+  <prop>DankPyon_OnTop_Kitchen_EmbeddedCleaver</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul35</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>35</priority>
+  <prop>DankPyon_OnTop_Research_Flasks</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul36</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>36</priority>
+  <prop>DankPyon_OnTop_Research_Vials</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul37</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>37</priority>
+  <prop>DankPyon_OnTop_Alchemy_MortarAndPestle</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul38</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>38</priority>
+  <prop>DankPyon_RusticThickRoomDivider_Open1x2c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul39</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>39</priority>
+  <prop>DankPyon_RusticThickRoomDivider_Closed1x2c</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul40</defName>
+  <category>VFE_PropCategory_Structures</category>
+  <priority>40</priority>
+  <prop>DankPyon_DividerColumn</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul41</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Tavern</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul42</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Bread</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul43</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Butcher</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul44</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Smith</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul45</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Apothecary</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul46</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Jewelry</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul47</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Library</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul48</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Tailor</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul49</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Woodworking</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul50</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Barn</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul51</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Winery</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+<VFEProps.PropDef>
+  <defName>ferny_medievaloverhaul52</defName>
+  <category>Ferny_Signs</category>
+  <priority>2</priority>
+  <prop>DankPyon_Sign_Scribe</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+
+
+
+
+</Defs>

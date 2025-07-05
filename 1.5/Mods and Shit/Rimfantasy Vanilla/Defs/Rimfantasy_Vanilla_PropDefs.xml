@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<VFEProps.PropDef>
+		<defName>ferny_Vanillaflags1</defName>
+		<category>Ferny_Flags</category>
+		<priority>1</priority>
+		<prop>Addie_IllanBanner</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+</Defs>

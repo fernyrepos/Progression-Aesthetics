@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyBiomesFossilsSigns_HiddenDesignators</defName>
+		<hiddenDesignators>		
+
+			<li>BMT_FossilInfo1Chungking</li>
+			<li>BMT_FossilInfo1Dna</li>
+			<li>BMT_FossilInfo1Fern</li>
+			<li>BMT_FossilInfo1Fish</li>
+			<li>BMT_FossilInfo1Footprints</li>
+			<li>BMT_FossilInfo1Shell</li>
+			<li>BMT_FossilInfo1Leaelly</li>
+			<li>BMT_FossilInfo1Text</li>
+			<li>BMT_FossilInfo1TriSkull</li>
+			<li>BMT_FossilInfo2Dna</li>
+			<li>BMT_FossilInfo2Road</li>
+			<li>BMT_FossilInfo2Footprints</li>
+			<li>BMT_FossilInfo2Gallimimus</li>
+			<li>BMT_FossilInfo2Iguanodon</li>
+			<li>BMT_FossilInfo2Mosa</li>
+			<li>BMT_FossilInfo2Plants</li>
+			<li>BMT_FossilInfo2Ptero</li>
+			<li>BMT_FossilInfo2Spino</li>
+			<li>BMT_FossilInfo2Trex</li>
+			<li>BMT_FossilInfo3Allosaurus</li>
+			<li>BMT_FossilInfo3Ankleo</li>
+			<li>BMT_FossilInfo3Measured</li>
+			<li>BMT_FossilInfo3Chlorosaurus</li>
+			<li>BMT_FossilInfo3Cloning</li>
+			<li>BMT_FossilInfo3Footprints</li>
+			<li>BMT_FossilInfo3Dying</li>
+			<li>BMT_FossilInfo3Cycle</li>
+			<li>BMT_FossilInfo3Raptors</li>
+			<li>BMT_FossilInfo3Triceratops</li>
+
+
+
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

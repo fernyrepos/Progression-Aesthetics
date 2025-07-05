@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyOfficeSupplies_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>OS_Magnifier</li>
+			<li>OS_LunchboxA</li>
+			<li>OS_LunchboxB</li>
+			<li>OS_BriefcaseA</li>
+			<li>OS_BriefcaseB</li>
+			<li>OS_Phonograph</li>
+			<li>OS_Radio</li>
+			<li>OS_Coffeecan</li>
+			<li>OS_Deskbell</li>
+			<li>OS_Deskphone</li>
+			<li>OS_Scale</li>
+			<li>OS_Ribbons</li>
+			<li>OS_MugA</li>
+			<li>OS_MugB</li>
+			<li>OS_EnvelopesA</li>
+			<li>OS_EnvelopesB</li>
+			<li>OS_NotesA</li>
+			<li>OS_NotesB</li>
+			<li>OS_NotesC</li>
+			<li>OS_Clipboard</li>
+			<li>OS_TypewriterA</li>
+			<li>OS_TypewriterB</li>
+			<li>OS_TypewriterC</li>
+			<li>OS_TypewriterD</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>
