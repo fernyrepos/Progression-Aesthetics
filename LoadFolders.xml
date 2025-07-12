@@ -104,7 +104,6 @@
     <li IfModActive="VanillaExpanded.VFECore">1.6/Mods and Shit/VE Furniture</li>
     <li IfModActive="VanillaExpanded.VFESpacer">1.6/Mods and Shit/VFE Spacer</li>
     <li IfModActive="ReGrowth.BOTR.Core">1.6/Mods and Shit/Regrowth Core</li>
-    <li IfModActive="anthitei.athsstylegothic.style">1.6/Mods and Shit/Gothic Style</li>
     <li IfModActive="vanillaexpanded.vfearchitect">1.6/Mods and Shit/VFE Architect</li>
     <li IfModActive="eeg.architecture">1.6/Mods and Shit/AOTR Corners</li>
     <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mods and Shit/Advanced Poly Beds</li>
@@ -133,5 +132,6 @@
     <li IfModActive="lmgginspace.repairbed">1.6/Mods and Shit/Repair Bed</li>
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>
     <li IfModActive="dsp.lun">1.6/Mods and Shit/Diner Supplies</li>
+    <li IfModActive="anthitei.athsstyleableframework.style">1.6/Mods and Shit/ATH Style Framework</li>
   </v1.6>
 </loadFolders>
