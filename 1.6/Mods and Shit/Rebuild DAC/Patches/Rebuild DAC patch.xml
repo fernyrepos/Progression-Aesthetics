@@ -7,26 +7,6 @@
 		<match Class="PatchOperationSequence">
     <operations>
 
-
-
-
-                        <li Class="PatchOperationAdd">
-                            <xpath>/Defs</xpath>
-                            <value>
-                            <ReplaceLib.ReplacerDef>
-                                <defName>RebuildCellWallFerny</defName>
-                                <replacers>
-                                    <li>
-                                        <replace>VFEArch_CellWall</replace>
-                                        <with>RB_CellWall</with>
-                                    </li>
-                                </replacers>
-                            </ReplaceLib.ReplacerDef>
-                            </value>
-                        </li>
-
-
-
     <li Class="PatchOperationAddModExtension">
         <success>Always</success>
         <xpath>/Defs/ThingDef[defName="RB_CellWall"]</xpath>

@@ -133,5 +133,6 @@
     <li IfModActive="farxmai2.vanillafurnitureexpandedpack">1.6/Mods and Shit/VE Furniture Additional Pack</li>
     <li IfModActive="dsp.lun">1.6/Mods and Shit/Diner Supplies</li>
     <li IfModActive="anthitei.athsstyleableframework.style">1.6/Mods and Shit/ATH Style Framework</li>
+    <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
   </v1.6>
 </loadFolders>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+  <Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigAutoDoor"]/researchPrerequisites</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef/researchPrerequisites[li="SpaceBase_Explorer_Furniture"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Wall"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SimpleDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Door"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigAutoDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_AutoDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Module"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_FixedModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_ConnectModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BracketModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WindowModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_MonitorModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_MonitorForestModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_MonitorOceanModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_MonitorDesertModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_LeftExtraWall"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_RightExtraWall"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SimpleDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Door"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigAutoDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_AutoDoor"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Window"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallLamp"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Tire"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigTire"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Track"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_MachineryModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_LadderModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_CompactBattery"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SolarGeneratorModule"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_DoubleSofa"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Sofa"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BarStool"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_LeftBench"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_RightBench"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SmallTable"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Table"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigTable"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_LongTable"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BarCounter"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Bed"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BedV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_DoubleBed"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_DoubleBedV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_AnimalBed"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Crib"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Lockers"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_LockersV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Cabinet"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_CabinetV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_TropicalPotted"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_CoralSpecimens"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_RockOrnament"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_FloorLamp"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Carpet"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SmallCarpet"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorPlants"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorplantV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorRock"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorRockV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorCoral"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_WallDecorCoralV"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Television"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BigTelevision"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Bookcase"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_BookcaseSmall"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_Shelf"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_ShelfSmall"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_SchoolDesk"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_SpaceBase_HolographicInstrument"]/designationCategory</xpath>
+    <value><designationCategory>Misc</designationCategory></value>
+  </Operation>
+</Patch>

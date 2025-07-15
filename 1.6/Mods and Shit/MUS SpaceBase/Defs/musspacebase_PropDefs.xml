@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase1</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Wall</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase2</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SimpleDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase3</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase4</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Door</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase5</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigAutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase6</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_AutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase7</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Module</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase8</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_FixedModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase9</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_ConnectModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase10</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BracketModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase11</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WindowModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase12</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase13</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorForestModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase14</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorOceanModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase15</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorDesertModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase16</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_LeftExtraWall</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase17</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_RightExtraWall</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase18</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SimpleDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase19</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase20</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Door</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase21</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigAutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase22</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_AutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase23</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SimpleDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase24</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase25</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Door</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase26</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigAutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase27</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_AutoDoor</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase28</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Window</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase29</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallLamp</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase30</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Tire</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase31</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigTire</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase32</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Track</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase33</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Module</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase34</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_FixedModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase35</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_ConnectModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase36</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BracketModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase37</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WindowModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase38</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase39</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorForestModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase40</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorOceanModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase41</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MonitorDesertModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase42</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MachineryModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase43</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_LadderModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase44</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_CompactBattery</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase45</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SolarGeneratorModule</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase46</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_DoubleSofa</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase47</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Sofa</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase48</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BarStool</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase49</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_LeftBench</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase50</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_RightBench</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase51</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SmallTable</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase52</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Table</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase53</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigTable</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase54</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_LongTable</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase55</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BarCounter</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase56</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Bed</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase57</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BedV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase58</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_DoubleBed</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase59</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_DoubleBedV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase60</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_AnimalBed</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase61</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Crib</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase62</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Lockers</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase63</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_LockersV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase64</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Cabinet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase65</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_CabinetV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase66</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_TropicalPotted</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase67</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_CoralSpecimens</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase68</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_RockOrnament</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase69</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_FloorLamp</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase70</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Carpet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase71</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SmallCarpet</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase72</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorPlants</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase73</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorplantV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase74</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorRock</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase75</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorRockV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase76</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorCoral</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase77</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_WallDecorCoralV</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase78</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Television</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase79</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BigTelevision</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase80</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Bookcase</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase81</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_BookcaseSmall</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase82</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_Shelf</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase83</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_ShelfSmall</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase84</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_SchoolDesk</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase85</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_HolographicInstrument</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<!-- Terrain -->
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase86</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MetalFlooring</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase87</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MetalFlooringTransverse</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+	<defName>ferny_musspacebase88</defName>
+	<category>VFE_PropCategory_Spacer</category>
+	<priority>90</priority>
+	<prop>MUS_SpaceBase_MetalFlooringVertical</prop>
+	<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+
+</Defs>
