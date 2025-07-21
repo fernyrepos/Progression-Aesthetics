@@ -406,4 +406,42 @@
 		<prop>MUS_Gothicstyle_BookDecoration</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_musgothic78</defName>
+		<category>Ferny_Gothic</category>
+		<priority>78</priority>
+		<prop>MUS_Gothicstyle_CoffinBed_Third</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+
+<!-- Algihty more tiles -->
+
+	<VFEProps.PropDef>
+		<defName>ferny_musgothic79</defName>
+		<category>Ferny_Gothic</category>
+		<priority>79</priority>
+		<prop>CastleFloorTilesSandstone</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_musgothic80</defName>
+		<category>Ferny_Gothic</category>
+		<priority>80</priority>
+		<prop>CastleFloorTilesGranite</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_musgothic81</defName>
+		<category>Ferny_Gothic</category>
+		<priority>81</priority>
+		<prop>CastleFloorTilesLimestone</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
+	<VFEProps.PropDef>
+		<defName>ferny_musgothic82</defName>
+		<category>Ferny_Gothic</category>
+		<priority>82</priority>
+		<prop>CastleFloorTilesSlate</prop>
+		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+	</VFEProps.PropDef>
 </Defs>

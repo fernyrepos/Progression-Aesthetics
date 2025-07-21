@@ -76,6 +76,7 @@
 			<li>MUS_Gothicstyle_PottedPlants</li>
 			<li>MUS_Gothicstyle_Bookcase</li>
 			<li>MUS_Gothicstyle_BookDecoration</li>
+			<li>MUS_Gothicstyle_CoffinBed_Third</li>
 		</hiddenDesignators>							
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>

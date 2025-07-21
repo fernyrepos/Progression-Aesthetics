@@ -93,7 +93,6 @@
     <li>/</li>
     <li>1.6</li>
     <li IfModActive="mlie.amnabisflags">1.6/Mods and Shit/Amnabi's Flags</li>
-    <li IfModActive="shork.torpedo.architecture">1.6/Mods and Shit/Architecture of the Rim</li>
     <li IfModActive="3hstltd.signs">1.6/Mods and Shit/Bill Signs</li>
     <li IfModActive="biomesteam.biomesfossils">1.6/Mods and Shit/Biomes Fossils</li>
     <li IfModActive="dankpyon.medieval.overhaul">1.6/Mods and Shit/Medieval Overhaul</li>
@@ -105,7 +104,7 @@
     <li IfModActive="VanillaExpanded.VFESpacer">1.6/Mods and Shit/VFE Spacer</li>
     <li IfModActive="ReGrowth.BOTR.Core">1.6/Mods and Shit/Regrowth Core</li>
     <li IfModActive="vanillaexpanded.vfearchitect">1.6/Mods and Shit/VFE Architect</li>
-    <li IfModActive="eeg.architecture">1.6/Mods and Shit/AOTR Corners</li>
+    <li IfModActive="eeg.architecture">1.6/Mods and Shit/Architecture of the Rim</li>
     <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mods and Shit/Advanced Poly Beds</li>
     <li IfModActive="mewn.extra.signs">1.6/Mods and Shit/MO Extra Signs</li>
     <li IfModActive="dark.signs">1.6/Mods and Shit/Signs and Comments</li>

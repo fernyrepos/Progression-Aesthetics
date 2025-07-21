@@ -40,6 +40,13 @@
   </Operation>
   <Operation Class="PatchOperationReplace">
     <success>Always</success>
+    <xpath>Defs/ThingDef[defName="MUS_Gothicstyle_CoffinBed_Third"]/designationCategory</xpath>
+    <value>
+      <designationCategory>Misc</designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
     <xpath>Defs/ThingDef[defName="MUS_Gothicstyle_WallColumnFront"]/designationCategory</xpath>
     <value>
       <designationCategory>Misc</designationCategory>
@@ -1004,6 +1011,21 @@
 <Operation Class="PatchOperationRemove">
   <success>Always</success>
 	<xpath>Defs/ResearchProjectDef[defName="Gothicstyle_Vampire_Furniture"]</xpath>
+</Operation>
+
+
+
+<Operation Class="PatchOperationReplace">
+  <success>Always</success>
+	<xpath>Defs/ThingDef[defName="MUS_Gothicstyle_CoffinBed_Third"]/researchPrerequisites</xpath>
+	<value>
+		<researchPrerequisites></researchPrerequisites>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationRemove">
+  <success>Always</success>
+	<xpath>Defs/TerrainDef[@Name="CastleFloorTiles"]/designatorDropdown</xpath>
 </Operation>
 
 </Patch>
