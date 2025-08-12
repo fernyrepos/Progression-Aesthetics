@@ -59,7 +59,7 @@
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>FernyDankPyon_RusticDoor</defName>
 		<graphicData>
-			<texPath>Buildings/RusticDoor_Mover</texPath>
+			<texPath>Things/Building/Door/RusticDoor_Mover</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(1,1)</drawSize>
 		</graphicData>
@@ -75,7 +75,7 @@
 	<ThingStyleDef ParentName="IdeoTableStyleBase">
 		<defName>FernyDankPyon_RusticDoor1x2c</defName>
 		<graphicData> 
-			<texPath>Buildings/RusticDoor1x2/RusticDoor1x2_Mover</texPath>
+			<texPath>Things/Building/Door/RusticDoor1x2/RusticDoor1x2_Mover</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>(2,1)</drawSize>
 		</graphicData>
