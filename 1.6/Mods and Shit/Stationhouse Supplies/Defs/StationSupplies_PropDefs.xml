@@ -8,13 +8,6 @@
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop2</defName>
-		<category>VFE_PropCategory_Office</category>
-		<priority>1</priority>
-		<prop>LO_Revolver</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
 		<defName>ferny_stationsuppliesprop3</defName>
 		<category>VFE_PropCategory_Office</category>
 		<priority>1</priority>
@@ -217,62 +210,4 @@
 		<prop>LO_OpenfileB</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop33</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerH</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop34</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerG</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop35</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerA</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop36</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerD</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop37</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerB</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop38</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerC</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop39</defName>
-		<category>Ferny_Dining</category>
-		<priority>1</priority>
-		<prop>LO_BurgerE</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-
-	<VFEProps.PropDef>
-		<defName>ferny_stationsuppliesprop41</defName>
-		<category>VFE_PropCategory_Office</category>
-		<priority>1</priority>
-		<prop>LO_CRT</prop>
-		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
-
 </Defs>

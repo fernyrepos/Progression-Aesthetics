@@ -31,19 +31,7 @@
       </operations>
     </match>
   </Operation>
-  
-  <Operation Class="PatchOperationConditional">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[defName="LO_Revolver"]/designatorDropdown</xpath>
-    <match Class="PatchOperationSequence">
-      <operations>
-        <li Class="PatchOperationRemove">
-          <xpath>/Defs/ThingDef[defName="LO_Revolver"]/designatorDropdown</xpath>
-        </li>
-      </operations>
-    </match>
-  </Operation>
-  
+
   <Operation Class="PatchOperationConditional">
     <success>Always</success>
     <xpath>Defs/ThingDef[defName="LO_Magni"]/designatorDropdown</xpath>

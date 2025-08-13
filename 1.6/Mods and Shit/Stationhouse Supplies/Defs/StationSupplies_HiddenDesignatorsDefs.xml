@@ -4,7 +4,6 @@
 		<defName>FernyStationSupplies_HiddenDesignators</defName>
 		<hiddenDesignators>			
 			<li>LO_Ashtray</li>
-			<li>LO_Revolver</li>
 			<li>LO_Cuffs</li>
 			<li>LO_Magni</li>
 			<li>LO_Recorder</li>
@@ -34,15 +33,6 @@
 			<li>LO_OpenfileA</li>
 			<li>LO_FileB</li>
 			<li>LO_OpenfileB</li>
-			<li>LO_CRT</li>
-			<li>LO_BurgerH</li>
-			<li>LO_BurgerG</li>
-			<li>LO_BurgerA</li>
-			<li>LO_BurgerD</li>
-			<li>LO_BurgerB</li>
-			<li>LO_BurgerC</li>
-			<li>LO_BurgerE</li>
-			<li>LO_BurgerF</li>
 		</hiddenDesignators>							
 	</VEF.Buildings.HiddenDesignatorsDef>
 </Defs>
