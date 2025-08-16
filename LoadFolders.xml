@@ -134,5 +134,6 @@
     <li IfModActive="dsp.lun">1.6/Mods and Shit/Diner Supplies</li>
     <li IfModActive="anthitei.athsstyleableframework.style">1.6/Mods and Shit/ATH Style Framework</li>
     <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
+    <li IfModActive="whaley.whaleysprops">1.6/Mods and Shit/Whaleys Props</li>
   </v1.6>
 </loadFolders>

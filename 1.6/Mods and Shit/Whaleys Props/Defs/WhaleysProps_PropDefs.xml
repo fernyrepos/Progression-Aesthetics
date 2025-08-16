@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+  <defName>ferny_wh_alienfigurine</defName>
+  <category>VFE_PropCategory_Children</category>
+  <priority>1</priority>
+  <prop>WH_AlienFigurine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_doily</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>WH_Doily</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_cdgroup</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_CDGroup</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_ashtray</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Ashtray</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_binoculars</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Binoculars</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_camera</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Camera</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_comfychicken</defName>
+  <category>VFE_PropCategory_Children</category>
+  <priority>1</priority>
+  <prop>WH_ComfyChicken</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_cuttingboard</defName>
+  <category>VFE_PropCategory_Kitchen</category>
+  <priority>1</priority>
+  <prop>WH_Cuttingboard</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_dice</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Dice</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_ducttape</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_DuctTape</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_figurines</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Figurines</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_hangers</defName>
+  <category>VFE_PropCategory_Bedroom</category>
+  <priority>1</priority>
+  <prop>WH_Hangers</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_headphones</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Headphones</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_heartpillow</defName>
+  <category>VFE_PropCategory_Bedroom</category>
+  <priority>1</priority>
+  <prop>WH_HeartPillow</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_incense</defName>
+  <category>VFE_PropCategory_Temple</category>
+  <priority>1</priority>
+  <prop>WH_Incense</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_jar</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_Jar</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_marker</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_Marker</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_microphone</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Microphone</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_mirror</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_Mirror</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_newspaper</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Newspaper</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_palette</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Palette</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_papertowel</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_PaperTowel</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_photoone</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>WH_PhotoOne</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_phototwo</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>WH_PhotoTwo</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_pinnedbutterfly</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>WH_PinnedButterfly</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_powerstrip</defName>
+  <category>VFE_PropCategory_Power</category>
+  <priority>1</priority>
+  <prop>WH_Powerstrip</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_records</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Records</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_rimspirit</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Rimspirit</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_rimtray</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_RimTray</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_rollingpine</defName>
+  <category>VFE_PropCategory_Kitchen</category>
+  <priority>1</priority>
+  <prop>WH_RollingPine</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_shampoo</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_Shampoo</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_snowglobe</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>WH_Snowglobe</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_soap</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_Soap</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_sponge</defName>
+  <category>VFE_PropCategory_Kitchen</category>
+  <priority>1</priority>
+  <prop>WH_Sponge</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_stapler</defName>
+  <category>VFE_PropCategory_Office</category>
+  <priority>1</priority>
+  <prop>WH_Stapler</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_tablet</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Tablet</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_teddybear</defName>
+  <category>VFE_PropCategory_Children</category>
+  <priority>1</priority>
+  <prop>WH_TeddyBear</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_tissues</defName>
+  <category>VFE_PropCategory_Misc</category>
+  <priority>1</priority>
+  <prop>WH_Tissues</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_watches</defName>
+  <category>VFE_PropCategory_Misc</category>
+  <priority>1</priority>
+  <prop>WH_Watches</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_waterbottle</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>WH_WaterBottle</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_weights</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_Weights</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_frogplush</defName>
+  <category>VFE_PropCategory_Children</category>
+  <priority>1</priority>
+  <prop>WH_FrogPlush</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_muffaloplush</defName>
+  <category>VFE_PropCategory_Children</category>
+  <priority>1</priority>
+  <prop>WH_MuffaloPlush</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_towel</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_Towel</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_newtonscradle</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_NewtonsCradle</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_saltandpepper</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>WH_SaltandPepper</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_trailpostone</defName>
+  <category>VFE_PropCategory_Park</category>
+  <priority>1</priority>
+  <prop>WH_TrailpostOne</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_trailposttwo</defName>
+  <category>VFE_PropCategory_Park</category>
+  <priority>1</priority>
+  <prop>WH_TrailpostTwo</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_trailpostthree</defName>
+  <category>VFE_PropCategory_Park</category>
+  <priority>1</priority>
+  <prop>WH_TrailpostThree</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_zengarden</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_ZenGarden</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_tvremote</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_TVRemote</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_cassetteplayer</defName>
+  <category>VFE_PropCategory_Recreation</category>
+  <priority>1</priority>
+  <prop>WH_CassettePlayer</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_trophy</defName>
+  <category>VFE_PropCategory_Misc</category>
+  <priority>1</priority>
+  <prop>WH_Trophy</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_rubberduck</defName>
+  <category>Ferny_Bathroom</category>
+  <priority>1</priority>
+  <prop>WH_RubberDuck</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_rmforty</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_RMFORTY</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_tools</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_Tools</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_hospone</defName>
+  <category>VFE_PropCategory_Hospital</category>
+  <priority>1</priority>
+  <prop>WH_HospOne</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_hosptwo</defName>
+  <category>VFE_PropCategory_Hospital</category>
+  <priority>1</priority>
+  <prop>WH_HospTwo</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_hospthree</defName>
+  <category>VFE_PropCategory_Hospital</category>
+  <priority>1</priority>
+  <prop>WH_HospThree</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_toolbox</defName>
+  <category>VFE_PropCategory_Workshop</category>
+  <priority>1</priority>
+  <prop>WH_Toolbox</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_cornucopia</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>1</priority>
+  <prop>WH_Cornucopia</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_notepad</defName>
+  <category>VFE_PropCategory_Office</category>
+  <priority>1</priority>
+  <prop>WH_Notepad</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_pavingtileone</defName>
+  <category>Ferny_Urban</category>
+  <priority>1</priority>
+  <prop>WH_PavingTileOne</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_pavingtiletwo</defName>
+  <category>Ferny_Urban</category>
+  <priority>1</priority>
+  <prop>WH_PavingTileTwo</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_wh_pavingtilethree</defName>
+  <category>Ferny_Urban</category>
+  <priority>1</priority>
+  <prop>WH_PavingTileThree</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+</Defs>

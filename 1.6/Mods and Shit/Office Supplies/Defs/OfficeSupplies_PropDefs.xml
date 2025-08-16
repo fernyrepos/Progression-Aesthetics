@@ -9,14 +9,14 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop2</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>Ferny_Dining</category>
 		<priority>1</priority>
 		<prop>OS_LunchboxA</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop3</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>Ferny_Dining</category>
 		<priority>1</priority>
 		<prop>OS_LunchboxB</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
@@ -37,28 +37,28 @@
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop6</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>VFE_PropCategory_Recreation</category>
 		<priority>1</priority>
 		<prop>OS_Phonograph</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop7</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>VFE_PropCategory_Recreation</category>
 		<priority>1</priority>
 		<prop>OS_Radio</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop8</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>Ferny_Dining</category>
 		<priority>1</priority>
 		<prop>OS_Coffeecan</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
 	<VFEProps.PropDef>
 		<defName>ferny_officesuppliesprop9</defName>
-		<category>VFE_PropCategory_Office</category>
+		<category>Ferny_Dining</category>
 		<priority>1</priority>
 		<prop>OS_Deskbell</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
