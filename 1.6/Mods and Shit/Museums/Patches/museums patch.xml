@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>          
+<Patch>       
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Small"]</xpath>
+                    <value>
+                        <label>padded bench (1x1)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Medium"]</xpath>
+                    <value>
+                        <label>padded bench (1x2)</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Large"]</xpath>
+                    <value>
+                        <label>padded bench (1x3)</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Small"]</xpath>
+                    <value>
+                        <costList>
+                            <Cloth>20</Cloth>
+                        </costList>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Medium"]</xpath>
+                    <value>
+                        <costList>
+                            <Cloth>40</Cloth>
+                        </costList>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[defName="Museums_Bench_Large"]</xpath>
+                    <value>
+                        <costList>
+                            <Cloth>60</Cloth>
+                        </costList>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationAdd">
+                    <xpath>Defs/ThingDef[@Name="MuseumBench"]/statBases</xpath>
+                    <value>
+                        <Comfort>0.71</Comfort>
+                    </value>
+                </Operation>
+
+</Patch>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<StyleCategoryDef>
+		<defName>Ferny_Cottagecore</defName>
+		<label>cottagecore</label>
+		<iconPath>UI/StyleCategories/Ferny_Rustic</iconPath>
+		<thingDefStyles>
+			<li>
+				<thingDef>Table1x2c</thingDef>
+				<styleDef>FernyCottage_Table1x2c</styleDef>
+			</li>
+			<li>
+				<thingDef>Table2x2c</thingDef>
+				<styleDef>FernyCottage_Table2x2c</styleDef>
+			</li>
+			<li>
+				<thingDef>EndTable</thingDef>
+				<styleDef>FernyCottage_EndTable</styleDef>
+			</li>
+		</thingDefStyles>
+
+	</StyleCategoryDef>
+</Defs>

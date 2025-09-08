@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Patch>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="CCot_CottageEndTable"]</xpath>
+    <value>
+    		<designationCategory></designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="CCot_CottageTable1x2a"]</xpath>
+    <value>
+    		<designationCategory></designationCategory>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="CCot_CottageTable2x2a"]</xpath>
+    <value>
+    		<designationCategory></designationCategory>
+    </value>
+  </Operation>
+
+
+
+
+
+</Patch>

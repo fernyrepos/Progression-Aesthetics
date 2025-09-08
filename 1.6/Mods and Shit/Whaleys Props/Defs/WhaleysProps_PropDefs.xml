@@ -366,7 +366,7 @@
 </VFEProps.PropDef>
 <VFEProps.PropDef>
   <defName>ferny_wh_trophy</defName>
-  <category>VFE_PropCategory_Misc</category>
+  <category>VFE_PropCategory_Furniture</category>
   <priority>1</priority>
   <prop>WH_Trophy</prop>
   <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>

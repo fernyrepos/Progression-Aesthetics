@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Category -->
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/*[designationCategory="Banquet_Decorations"]/designationCategory</xpath>
+        <value>
+        <designationCategory>Misc</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/DesignationCategoryDef[defName="Banquet_Decorations"]</xpath>
+    </Operation>
+
+<!-- Remove recipes -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeChocolateCake"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeChocolateCakeII"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeStrawberryCake"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeStrawberryCakeII"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeInsectJellyPudding"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeInsectJellyPuddingII"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeSteak"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeBakedSnail"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeOyster"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeGooseLiver"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeBerrySparklingWater"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MakeLuxuryBeer"]</xpath>
+    </Operation>
+    <!-- Electric stove -->
+    <Operation Class="PatchOperationSequence">
+    <operations>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeChocolateCake"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeChocolateCakeII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeStrawberryCake"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeStrawberryCakeII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeInsectJellyPudding"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeInsectJellyPuddingII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeSteak"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeBakedSnail"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeOyster"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeGooseLiver"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeBerrySparklingWater"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="ElectricStove"]/recipes/li[text()="MakeLuxuryBeer"]</xpath>
+        </li>
+    </operations>
+    </Operation>
+<!-- Fueled stove -->
+    <Operation Class="PatchOperationSequence">
+    <operations>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeChocolateCake"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeChocolateCakeII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeStrawberryCake"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeStrawberryCakeII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeInsectJellyPudding"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeInsectJellyPuddingII"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeSteak"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeBakedSnail"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeOyster"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeGooseLiver"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeBerrySparklingWater"]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="FueledStove"]/recipes/li[text()="MakeLuxuryBeer"]</xpath>
+        </li>
+    </operations>
+    </Operation>
+
+
+
+<!-- Sign integration -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Signs and Comments</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+    <operations>
+
+      <li Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>/Defs/ThingDef[defName="BanquetSignage"]</xpath>
+        <value>
+          <drawGUIOverlay>true</drawGUIOverlay>
+        </value>
+      </li>
+
+      <li Class="PatchOperationConditional">
+        <xpath>/Defs/ThingDef[defName="BanquetSignage"]/comps</xpath>
+        <nomatch Class="PatchOperationAdd">
+          <xpath>/Defs/ThingDef[defName="BanquetSignage"]</xpath>
+          <value>
+            <comps>
+              <li Class="Dark.Signs.CompProperties_Sign">
+                <canEditContent>true</canEditContent>
+                <canBeEmpty>true</canBeEmpty>
+                <defaultContents></defaultContents>
+              </li>
+            </comps>
+          </value>
+        </nomatch>
+        <match Class="PatchOperationAdd">
+          <success>Always</success>
+          <xpath>/Defs/ThingDef[defName="BanquetSignage"]/comps</xpath>
+          <value>
+            <li Class="Dark.Signs.CompProperties_Sign">
+              <canEditContent>true</canEditContent>
+              <canBeEmpty>true</canBeEmpty>
+              <defaultContents></defaultContents>
+            </li>
+          </value>
+        </match>
+      </li>
+
+    </operations>
+		</match>
+	</Operation>
+
+
+
+
+
+</Patch>

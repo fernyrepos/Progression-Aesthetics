@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+      <Operation Class="PatchOperationReplace">
+        <xpath>Defs/*[designationCategory="Victoria_Decorations"]/designationCategory</xpath>
+        <value>
+        <designationCategory>Misc</designationCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VD_TableLamp"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Furniture</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VD_TableLamp"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Furniture</designationCategory>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VD_ChessBoard"]/designationCategory</xpath>
+        <value>
+            <designationCategory>Joy</designationCategory>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VD_ChessBoard"]/label</xpath>
+        <value>
+            <label>portable chessboard</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="VD_ChessBoard"]/description</xpath>
+        <value>
+            <description>A standalone chessboard which is able to be placed on any surface you'd like. Requires chairs to play.</description>
+        </value>
+    </Operation>
+
+
+<!-- Fuck the art bench recipes -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VD_Sandglass"]</xpath>
+        <value>
+            <recipeMaker Inherit="False" IsNull="True" />
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VD_Phonograph"]</xpath>
+        <value>
+            <recipeMaker Inherit="False" IsNull="True" />
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VD_PendulumClock"]</xpath>
+        <value>
+            <recipeMaker Inherit="False" IsNull="True" />
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VD_HangingOilPainting"]</xpath>
+        <value>
+            <recipeMaker Inherit="False" IsNull="True" />
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="VD_OilPainting"]</xpath>
+        <value>
+            <recipeMaker Inherit="False" IsNull="True" />
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/DesignationCategoryDef[defName="Victoria_Decorations"]</xpath>
+    </Operation>
+</Patch>

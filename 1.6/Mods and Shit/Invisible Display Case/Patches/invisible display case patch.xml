@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="InvisibleDisplayCaseSmall"]/label</xpath>
+        <value>
+            <label>item display</label>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="InvisibleDisplayCaseSmall"]/statBases/WorkToBuild</xpath>
+        <value>
+          <WorkToBuild>0</WorkToBuild>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="InvisibleDisplayCaseSmall"]/costStuffCount</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="InvisibleDisplayCaseSmall"]/stuffCategories</xpath>
+    </Operation>
+
+
+</Patch>

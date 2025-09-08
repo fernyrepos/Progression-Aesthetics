@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyBanquetDecorations_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>BanquetSignage</li>
+			<li>LuxuryGuardrail</li>
+			<li>BakedSnail_Buliding</li>
+			<li>GooseLiver_Buliding</li>
+			<li>InsectJellyPudding_Buliding</li>
+			<li>Oyster_Buliding</li>
+			<li>Steak_Buliding</li>
+			<li>StrawberryCake_Buliding</li>
+			<li>LuxuryBeer_Buliding</li>
+			<li>BerrySparklingWater_Buliding</li>
+			<li>ChocolateCake_Buliding</li>
+			<li>Goblet</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

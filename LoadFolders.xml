@@ -135,5 +135,11 @@
     <li IfModActive="anthitei.athsstyleableframework.style">1.6/Mods and Shit/ATH Style Framework</li>
     <li IfModActive="mingtuwuxiang.spacebasedecorative">1.6/Mods and Shit/MUS SpaceBase</li>
     <li IfModActive="whaley.whaleysprops">1.6/Mods and Shit/Whaleys Props</li>
+    <li IfModActive="mos.victoriandecorations">1.6/Mods and Shit/Victorian Decorations</li>
+    <li IfModActive="mo.decorationsluxury">1.6/Mods and Shit/Banquet Decorations</li>
+    <li IfModActive="icepickgma.invisibledisplaycase">1.6/Mods and Shit/Invisible Display Case</li>
+    <!-- <li IfModActive="erin.decorations">1.6/Mods and Shit/Erin Decorations</li>
+    <li IfModActive="erin.cottagecollection">1.6/Mods and Shit/Erin Cottage Collection</li> -->
+    <li IfModActive="nightmare.museums">1.6/Mods and Shit/Museums</li>
   </v1.6>
 </loadFolders>

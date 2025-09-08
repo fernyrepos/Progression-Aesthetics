@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyVictorianDecorations_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>VD_Sandglass</li>
+			<li>VD_Phonograph</li>
+			<li>VD_PendulumClock</li>
+			<li>VD_HangingOilPainting</li>
+			<li>VD_OilPainting</li>
+			<li>VD_BookPile</li>
+			<li>VD_CigarBox</li>
+			<li>VD_CigarTray</li>
+			<li>VD_DialTelephone</li>
+			<li>VD_DocumentBox</li>
+			<li>VD_FoodTrolley</li>
+			<li>VD_GlassCup</li>
+			<li>VD_IronWinePot</li>
+			<li>VD_JohnnieWalker</li>
+			<li>VD_Map</li>
+			<li>VD_SuitCase</li>
+			<li>VD_TeacupPlate</li>
+			<li>VD_TobaccoPipe</li>
+			<li>VD_TypeWriter</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

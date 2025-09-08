@@ -34,4 +34,461 @@
             <designationCategory>Furniture</designationCategory>
         </value>
     </Operation>
+
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_AlienFigurine"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_AlienFigurine"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Doily"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Doily"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_CDGroup"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_CDGroup"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Ashtray"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Ashtray"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Binoculars"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Binoculars"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Camera"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Camera"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_ComfyChicken"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_ComfyChicken"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Cuttingboard"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Cuttingboard"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Dice"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Dice"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_DuctTape"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_DuctTape"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Figurines"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Figurines"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Hangers"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Hangers"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Headphones"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Headphones"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_HeartPillow"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_HeartPillow"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Incense"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Incense"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Jar"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Jar"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Marker"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Marker"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Microphone"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Microphone"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Mirror"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Mirror"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Newspaper"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Newspaper"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Palette"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Palette"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PaperTowel"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PaperTowel"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PhotoOne"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PhotoOne"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PhotoTwo"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PhotoTwo"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PinnedButterfly"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PinnedButterfly"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Powerstrip"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Powerstrip"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Records"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Records"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Rimspirit"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Rimspirit"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_RimTray"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_RimTray"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_RollingPine"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_RollingPine"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Shampoo"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Shampoo"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Snowglobe"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Snowglobe"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Soap"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Soap"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Sponge"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Sponge"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Stapler"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Stapler"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Tablet"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Tablet"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_TeddyBear"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_TeddyBear"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Tissues"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Tissues"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Watches"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Watches"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_WaterBottle"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_WaterBottle"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Weights"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Weights"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_FrogPlush"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_FrogPlush"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_MuffaloPlush"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_MuffaloPlush"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Towel"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Towel"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_NewtonsCradle"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_NewtonsCradle"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_SaltandPepper"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_SaltandPepper"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_TrailpostOne"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_TrailpostOne"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_TrailpostTwo"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_TrailpostTwo"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_TrailpostThree"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_TrailpostThree"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_ZenGarden"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_ZenGarden"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_TVRemote"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_TVRemote"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_CassettePlayer"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_CassettePlayer"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Trophy"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Trophy"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_RubberDuck"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_RubberDuck"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_RMFORTY"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_RMFORTY"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Tools"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Tools"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_HospOne"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_HospOne"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_HospTwo"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_HospTwo"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_HospThree"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_HospThree"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Toolbox"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Toolbox"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Cornucopia"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Cornucopia"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_Notepad"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_Notepad"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PavingTileOne"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PavingTileOne"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PavingTileTwo"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PavingTileTwo"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+<Operation Class="PatchOperationConditional">
+  <success>Always</success>
+  <xpath>/Defs/ThingDef[defName="WH_PavingTileThree"]/designatorDropdown</xpath>
+  <match Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="WH_PavingTileThree"]/designatorDropdown</xpath>
+  </match>
+</Operation>
+
 </Patch>

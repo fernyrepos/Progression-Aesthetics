@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+  <defName>ferny_InvisibleDisplayCase</defName>
+  <category>VFE_PropCategory_Furniture</category>
+  <priority>0.5</priority>
+  <prop>InvisibleDisplayCaseSmall</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+</Defs>

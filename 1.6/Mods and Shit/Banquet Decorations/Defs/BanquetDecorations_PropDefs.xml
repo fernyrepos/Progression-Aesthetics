@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor1</defName>
+  <category>Ferny_Signs</category>
+  <priority>1</priority>
+  <prop>BanquetSignage</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor2</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>BakedSnail_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor3</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>GooseLiver_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor4</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>InsectJellyPudding_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor5</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>Oyster_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor6</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>Steak_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor7</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>StrawberryCake_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor8</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>LuxuryBeer_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor9</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>BerrySparklingWater_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor10</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>ChocolateCake_Buliding</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+<VFEProps.PropDef>
+  <defName>ferny_banquetdecor11</defName>
+  <category>Ferny_Dining</category>
+  <priority>1</priority>
+  <prop>Goblet</prop>
+  <useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
+</VFEProps.PropDef>
+
+</Defs>

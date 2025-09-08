@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCottage_Table2x2c</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/CottageTable2x2/CottageTable2x2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.7,2.7)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCottage_Table1x2c</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/CottageTable1x2/CottageTable1x2</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2.7,1.4)</drawSize>
+		</graphicData>
+	</ThingStyleDef>
+	<ThingStyleDef ParentName="IdeoTableStyleBase">
+		<defName>FernyCottage_EndTable</defName>
+		<graphicData>
+			<texPath>Things/Building/Furniture/CottageEndTable/CottageEndTable</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+	</ThingStyleDef>
+</Defs>
