@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<VEF.Buildings.HiddenDesignatorsDef>
+		<defName>FernyAnicentUrbanRuinsProgAesthetics_HiddenDesignators</defName>
+		<hiddenDesignators>			
+			<li>AM_FloorLabeling</li>
+			<li>AM_IndicatorLine</li>
+			<li>AM_IndicatorLine_Yellow</li>
+			<li>AM_Rail</li>
+			<li>AM_Crosstie</li>
+			<li>AM_DiningChair</li>
+		</hiddenDesignators>							
+	</VEF.Buildings.HiddenDesignatorsDef>
+</Defs>

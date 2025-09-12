@@ -1,19 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-<!-- HIDE -->
-                <Operation Class="PatchOperationReplace">
-                  <success>Always</success>
-                  <xpath>Defs/ThingDef[defName="DA_OssuaryWall"]/designationCategory</xpath>
-                  <value>
-                        <designationCategory></designationCategory>
-                  </value>
-                </Operation>
-
-
-
-
-
 
 <!-- MORBID STYLE -->
 
