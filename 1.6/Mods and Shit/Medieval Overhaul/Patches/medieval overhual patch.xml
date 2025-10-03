@@ -1581,4 +1581,41 @@
 			</operations>
 		</match>
 	</Operation>
+
+
+
+
+
+
+
+
+<!-- VFE ARCHITECT -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>Vanilla Furniture Expanded - Architect</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ReplaceLib.ReplacerDef>
+							<defName>MedievalOverhaul_Aesthetics_VFEArchitect</defName>
+							<replacers>
+								<li>
+									<replace>VFEArch_LogWall</replace>
+									<with>DankPyon_LogWall</with>
+								</li>
+							</replacers>
+						</ReplaceLib.ReplacerDef>
+					</value>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
+
+
+
+
 </Patch>
