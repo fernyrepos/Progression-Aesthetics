@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
+
+
+
+
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>/Defs/ThingDef[defName="MUS_Fishing_DecorativeA"]/designationCategory</xpath>
@@ -153,7 +157,7 @@
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>/Defs/ThingDef[defName="MUS_Fishingstyle_wall"]/designationCategory</xpath>
-        <value><designationCategory>Misc</designationCategory></value>
+        <value><designationCategory></designationCategory></value>
     </Operation>
     <Operation Class="PatchOperationReplace">
         <success>Always</success>

@@ -14,7 +14,7 @@
     <success>Always</success>
     <xpath>Defs/ThingDef[defName="MUS_Gothicstyle_Wall"]/designationCategory</xpath>
     <value>
-      <designationCategory>Misc</designationCategory>
+      <designationCategory></designationCategory>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -501,7 +501,7 @@
     <success>Always</success>
     <xpath>Defs/ThingDef[defName="MUS_Gothicstyle_WallShootingHole"]/designationCategory</xpath>
     <value>
-        <designationCategory>Misc</designationCategory>
+        <designationCategory></designationCategory>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">

@@ -18,12 +18,15 @@
 		</match>
 	</Operation>
 
+
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/ResearchProjectDef[defName="MF_RoyalFurniture"]/label</xpath>
 		<value>
 			<label>Royal furniture</label>
 		</value>
 	</Operation>
+
+
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Medieval Overhaul</li>

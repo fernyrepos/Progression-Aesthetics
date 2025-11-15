@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<VFEProps.PropDef>
+	<!-- <VFEProps.PropDef>
 		<defName>ferny_musgothic1</defName>
 		<category>Ferny_Gothic</category>
 		<priority>1</priority>
 		<prop>MUS_Gothicstyle_Wall</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
+	</VFEProps.PropDef> -->
 	<VFEProps.PropDef>
 		<defName>ferny_musgothic2</defName>
 		<category>Ferny_Gothic</category>
@@ -329,13 +329,13 @@
 		<prop>MUS_Gothicstyle_CourtyardArch</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
 	</VFEProps.PropDef>
-	<VFEProps.PropDef>
+	<!-- <VFEProps.PropDef>
 		<defName>ferny_musgothic67</defName>
 		<category>Ferny_Gothic</category>
 		<priority>67</priority>
 		<prop>MUS_Gothicstyle_WallShootingHole</prop>
 		<useMatsInsteadOfSilver>true</useMatsInsteadOfSilver>
-	</VFEProps.PropDef>
+	</VFEProps.PropDef> -->
 	<VFEProps.PropDef>
 		<defName>ferny_musgothic68</defName>
 		<category>Ferny_Gothic</category>
