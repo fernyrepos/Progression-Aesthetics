@@ -1362,6 +1362,20 @@
 		</operations>
 	</Operation>
 	<!-- RUSTIC STYLE -->
+	<Operation Class="PatchOperationConditional">
+		<success>Always</success>
+		<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+		<match Class="PatchOperationAdd">
+			<success>Always</success>
+			<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
+			<value>
+				<li>
+					<thingDef>Table2x2c</thingDef>
+					<styleDef>FernyRustic_Table2x2c</styleDef>
+				</li>
+			</value>
+		</match>
+	</Operation>
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Vanilla Furniture Expanded</li>
@@ -1370,10 +1384,10 @@
 			<operations>
 				<li Class="PatchOperationConditional">
 					<success>Always</success>
-					<xpath>/Defs/StyleCategoryDef[defName = "Ferny_OldWorld"]/thingDefStyles</xpath>
+					<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
 					<match Class="PatchOperationAdd">
 						<success>Always</success>
-						<xpath>/Defs/StyleCategoryDef[defName = "Ferny_OldWorld"]/thingDefStyles</xpath>
+						<xpath>/Defs/StyleCategoryDef[defName = "DankPyon_OldWorld"]/thingDefStyles</xpath>
 						<value>
 							<li>
 								<thingDef>Table_1x1c</thingDef>
@@ -1455,7 +1469,7 @@
 	</Operation>
 	<Operation Class="PatchOperationAdd">
 		<success>Always</success>
-		<xpath>Defs/StyleCategoryDef[defName="Ferny_OldWorld"]/thingDefStyles</xpath>
+		<xpath>Defs/StyleCategoryDef[defName="DankPyon_OldWorld"]/thingDefStyles</xpath>
 		<value>
 			<li>
 				<thingDef>Table2x4c</thingDef>
@@ -1509,7 +1523,7 @@
 			<operations>
 				<li Class="PatchOperationAdd">
 					<success>Always</success>
-					<xpath>Defs/StyleCategoryDef[defName="Ferny_OldWorld"]/thingDefStyles</xpath>
+					<xpath>Defs/StyleCategoryDef[defName="DankPyon_OldWorld"]/thingDefStyles</xpath>
 					<value>
 						<li>
 							<thingDef>Table_1x1c</thingDef>
