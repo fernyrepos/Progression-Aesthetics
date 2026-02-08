@@ -7,4 +7,43 @@
                         <label>wallpaper wall</label>
                     </value>
                 </Operation>
+
+
+
+                <!-- Obelisks -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Obelisk"]/label</xpath>
+                    <value>
+                        <label>obelisk sculpting</label>
+                    </value>
+                </Operation>
+
+
+                <!-- Monuments -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Monuments"]/label</xpath>
+                    <value>
+                        <label>monument sculpting</label>
+                    </value>
+                </Operation>
+
+                <!-- Monuments -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Statues"]/label</xpath>
+                    <value>
+                        <label>statue sculpting</label>
+                    </value>
+                </Operation>
+    
+                <!-- Wallpapers -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="VFE_Res_Wallpapers"]/label</xpath>
+                    <value>
+                        <label>wallpaper wall</label>
+                    </value>
+                </Operation>
 </Patch>

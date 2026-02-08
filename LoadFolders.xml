@@ -143,5 +143,7 @@
     <li IfModActive="nightmare.museums">1.6/Mods and Shit/Museums</li>
     <li IfModActive="ponpeco.pfkidsroom">1.6/Mods and Shit/Ponpeco Kids Room</li>
     <li IfModActive="leo.propsdecor">1.6/Mods and Shit/Miniature Props and Decor</li>
+    <li IfModActive="Ludeon.Rimworld.Ideology">1.6/Mods and Shit/Ideology</li>
+    <li IfModActive="Mumei.Signs">1.6/Mods and Shit/Signs and Comments</li>
   </v1.6>
 </loadFolders>

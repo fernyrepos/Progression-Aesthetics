@@ -943,6 +943,11 @@
 			</value>
 		</nomatch>
 	</Operation>
+
+
+
+
+
 	<!-- RENAME SHIT -->
 	<Operation Class="PatchOperationReplace">
 		<success>Always</success>
@@ -1000,6 +1005,49 @@
 			<label>standing torch</label>
 		</value>
 	</Operation>
+
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ResearchProjectDef[defName="DankPyon_CandleMaking"]/label</xpath>
+		<value>
+			<label>candles</label>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DankPyon_Candle"]/label</xpath>
+		<value>
+			<label>candle (tallow)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DankPyon_Candle_Beeswax"]/label</xpath>
+		<value>
+			<label>candle (beeswax)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DankPyon_Candles"]/label</xpath>
+		<value>
+			<label>candles (tallow)</label>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="DankPyon_Candles_Beeswax"]/label</xpath>
+		<value>
+			<label>candles (beeswax)</label>
+		</value>
+	</Operation>
+
+
+
+
+
 	<!-- FUCK THESE DROPDOWNS -->
 	<Operation Class="PatchOperationRemove">
 		<success>Always</success>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+
+<!-- Plant pot research -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="PlantPot_Bonsai"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PlantPot_Bonsai"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                        <li>TreeSowing</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PlantPot_Bonsai"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                        <li>TreeSowing</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
+</Patch>

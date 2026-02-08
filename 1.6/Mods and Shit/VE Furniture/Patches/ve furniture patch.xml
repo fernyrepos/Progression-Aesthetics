@@ -133,4 +133,38 @@
 			</operations>
 		</match>
 	</Operation>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Plant pot research -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="VFE_LongPlantPot"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+
+
 </Patch>

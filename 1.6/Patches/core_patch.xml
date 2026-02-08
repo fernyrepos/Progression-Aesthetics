@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- Renames -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TorchLamp"]/label</xpath>
+                    <value>
+                        <label>torch</label>
+                    </value>
+                </Operation>
+      
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="TorchWallLamp"]/label</xpath>
+                    <value>
+                        <label>wall torch</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="DiningChair"]/label</xpath>
+                    <value>
+                        <label>chair</label>
+                    </value>
+                </Operation>
+
+
+<!-- Research -->
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="PlantPot"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="PlantPot"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="PlantPot"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_PlantPots</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+      
+
+
+
+
+
+
+</Patch>
