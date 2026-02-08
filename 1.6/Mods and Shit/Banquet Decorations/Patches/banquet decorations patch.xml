@@ -150,7 +150,7 @@
 <!-- Sign integration -->
 	<Operation Class="PatchOperationFindMod">
 		<mods>
-			<li>Signs and Comments</li>
+			<li>Signs and Comments Fixed</li>
 		</mods>
 		<match Class="PatchOperationSequence">
     <operations>
