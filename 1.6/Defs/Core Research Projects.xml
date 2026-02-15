@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
   
-<!-- Plant pots -->
-	<ResearchProjectDef>
+  	<ResearchProjectDef>
 		<defName>Ferny_PlantPots</defName>
 		<label>Plant pots</label>
 		<description>Build small pots capable of displaying beautiful decorative flowers.</description>
@@ -13,6 +12,40 @@
 		<tags>
 			<li>ClassicStart</li>
 		</tags>
+	</ResearchProjectDef>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_Beds</defName>
+		<label>Cloth beds</label>
+		<description>Build soft mattresses for cozy moderate sleep.</description>
+		<baseCost>550</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<tags>
+			<li>ClassicStart</li>
+		</tags>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Couches</defName>
+		<label>Couches</label>
+		<description>Build seating which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Couches</defName>
+		<label>Couches</label>
+		<description>Build seating which is cushioned for maximum comfort. Perfect for a luxurious rec room or a homey reading nook.</description>
+		<baseCost>700</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
 	</ResearchProjectDef>
 
 </Defs>

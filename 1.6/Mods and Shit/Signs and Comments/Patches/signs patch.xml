@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ThingDef[@Name="SignWithCustomLabelBase"]/designationCategory</xpath>
-    <value>
-          <designationCategory>Misc</designationCategory>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationRemove">
-    <success>Always</success>
-    <xpath>Defs/DesignationCategoryDef[defName="Dark_Signs"]</xpath>
-  </Operation>
-
-
 	<Operation Class="PatchOperationFindMod">
 		<mods>
 			<li>Signs and Comments Fixed</li>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ErgonomicChair</defName>
+		<label>Ergonomic chair</label>
+		<description>Build sleek spacer tables with an embedded smart display. When seated at this table, colonists enjoy passive television-style recreation alongside meals or work.</description>
+		<baseCost>900</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ErgonomicBeds</defName>
+		<label>Ergonomic beds</label>
+		<description>Build modern, adjustable beds designed for maximum comfort and proper spinal support.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_ClothBeds</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

@@ -44,11 +44,87 @@
                     </value>
                   </nomatch>
                 </Operation>
-      
 
 
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Bed"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Bed"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_ClothBeds</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Bed"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_ClothBeds</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
+
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="DoubleBed"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="DoubleBed"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_ClothBeds</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="DoubleBed"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_ClothBeds</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
 
 
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Couch"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Couch"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Couches</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Couch"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Couches</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
 
+                <Operation Class="PatchOperationConditional">
+                  <xpath>/Defs/ThingDef[defName="Armchair"]/researchPrerequisites</xpath>
+                  <match Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName="Armchair"]/researchPrerequisites</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Couches</li>
+                      </researchPrerequisites> 
+                   </value>
+                  </match>
+                  <nomatch Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName="Armchair"]</xpath>
+                    <value>
+                      <researchPrerequisites>
+                        <li>Ferny_Couches</li>
+                      </researchPrerequisites> 
+                    </value>
+                  </nomatch>
+                </Operation>
 
 </Patch>

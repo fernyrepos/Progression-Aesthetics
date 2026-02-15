@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_InteractiveTables</defName>
+		<label>Interactive tables</label>
+		<description>Build sleek spacer tables with an embedded smart display. When seated at this table, colonists enjoy passive television-style recreation alongside meals or work.</description>
+		<baseCost>1600</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_OutdoorSolarLamp</defName>
+		<label>Outdoor solar lamp</label>
+		<description>Build an electrical standing lamp that lights an area, good for large outdoor spaces. It has a small solar panel mounted on top. It s electrical charge during the day, when it’s off, and automatically turns on at night.</description>
+		<baseCost>1400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<!-- <ResearchProjectDef>
+		<defName>Ferny_AdvancedBeds</defName>
+		<label>Advanced beds</label>
+		<description>Build a cutting-edge, fully motorized bed equipped with pressure-adjusting surfaces, biometric monitoring, and tech-assisted sleep tracking. It offers unmatched comfort, rest efficiency, and surgical support.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef> -->
+
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedChair</defName>
+		<label>Advanced chair</label>
+		<description>Build a high-end, spacer-era seating solution with adaptive cushioning, posture calibration, and breathable smart fabrics. Designed for maximum long-term comfort and sleek modern interiors.</description>
+		<baseCost>1300</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>Fabrication</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ModernCouches</defName>
+		<label>Modern couches</label>
+		<description>Build sleek, spacer-era armchairs and couches. Built with memory foam, smart-fabric upholstery, and ergonomic design, it provides superior comfort and aesthetics.</description>
+		<baseCost>1200</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>27</researchViewX>
+		<researchViewY>3.00</researchViewY>
+	</ResearchProjectDef>
+
+
+</Defs>

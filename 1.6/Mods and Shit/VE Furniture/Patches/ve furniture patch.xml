@@ -1,6 +1,35 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <Patch>
-	<!-- PATCHES -->
+
+
+
+
+<!-- New projects -->
+
+
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[defName="Seat_ModernChair"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+			<li>Ferny_ErgonomicChair</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/ThingDef[@Name="VFE_ErgonomicBedBase"]/researchPrerequisites</xpath>
+		<value>
+			<researchPrerequisites>
+			<li>Ferny_ErgonomicBeds</li>
+			</researchPrerequisites>
+		</value>
+	</Operation>
+
+
+	<!-- OLDER PATCHES -->
 	<Operation Class="PatchOperationConditional">
 		<xpath>/Defs/DesignationCategoryDef[defName="AOMorefurniture"]</xpath>
 		<match Class="PatchOperationSequence">

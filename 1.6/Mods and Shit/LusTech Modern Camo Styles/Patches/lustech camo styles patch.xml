@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Patch>
+
+<!-- LusTech - Snow(Camo) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef[defName="LMSnowC"]/label</xpath>
+		<value>
+			<label>Snow camo</label>
+		</value>
+	</Operation>
+
+<!-- LusTech - Desert(Camo) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef[defName="LMDesertC"]/label</xpath>
+		<value>
+			<label>Desert camo</label>
+		</value>
+	</Operation>
+
+<!-- LusTech - Jungle (Camo) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef[defName="LMJungleC"]/label</xpath>
+		<value>
+			<label>Jungle camo</label>
+		</value>
+	</Operation>
+
+<!-- LusTech - Black (Mono) -->
+	<Operation Class="PatchOperationReplace">
+		<success>Always</success>
+		<xpath>Defs/StyleCategoryDef[defName="LMBlackM"]/label</xpath>
+		<value>
+			<label>Black camo</label>
+		</value>
+	</Operation>
+
+</Patch>

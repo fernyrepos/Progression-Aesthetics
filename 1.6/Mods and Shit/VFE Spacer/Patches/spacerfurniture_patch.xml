@@ -1,10 +1,76 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>              
 <!-- PATCHES -->
-                <Operation Class="PatchOperationReplace">
+                <!-- <Operation Class="PatchOperationReplace">
                     <xpath>Defs/ThingDef[defName="UltrascreenTV"]/designationCategory</xpath>
                     <value>
                         <designationCategory>Joy</designationCategory>
                     </value>
+                </Operation> -->
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[@Name="VFES_InteractiveTableBase"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_InteractiveTables</li>
+                        </researchPrerequisites>
+                    </value>
                 </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Spacer_OutdoorLamp"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_OutdoorSolarLamp</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ResearchProjectDef[defName="SpacerFurniture"]/label</xpath>
+                    <value>
+                        <label>advanced bedrooms</label>
+                    </value>
+                </Operation>
+
+                <!-- <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Bed_AdvBed"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_AdvancedBeds</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Bed_AdvDoubleBed"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_AdvancedBeds</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation> -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/ThingDef[defName="Seat_AdvChair"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                        <li>Ferny_AdvancedChair</li>
+                        </researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
+
 </Patch>
