@@ -108,7 +108,7 @@
     <li IfModActive="eeg.architecture">1.6/Mods and Shit/Architecture of the Rim</li>
     <li IfModActive="Inggo.AdvancedPolyBeds">1.6/Mods and Shit/Advanced Poly Beds</li>
     <li IfModActive="mewn.extra.signs">1.6/Mods and Shit/MO Extra Signs</li>
-    <li IfModActive="dark.signs">1.6/Mods and Shit/Signs and Comments</li>
+    <li IfModActive="dark.signs,Mumei.Signs">1.6/Mods and Shit/Signs and Comments</li>
     <li IfModActive="oracle.miscellania">1.6/Mods and Shit/Oracle's Miscellania</li>
     <li IfModActive="vanillaexpanded.vgeneticse">1.6/Mods and Shit/VE Genetics</li>
     <li IfModActive="xmb.ancienturbanruins.mo">1.6/Mods and Shit/Ancient Urban Ruins</li>
