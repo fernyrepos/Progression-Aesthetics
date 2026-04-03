@@ -1684,5 +1684,39 @@
 		</value>
 	</Operation>
 
+	<!-- ReBuild: Doors and Corners -->
+	<!-- MO's doors look like crap and stand out massively with ReBuild installed -->
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>ReBuild: Doors and Corners</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<ReplaceLib.ReplacerDef>
+							<defName>MedievalOverhaul_Aesthetics_RebuildDoorsAndCorners</defName>
+							<replacers>
+								<li>
+									<replace>DankPyon_RusticDoor</replace>
+									<with>Door</with>
+								</li>
+								<li>
+									<replace>DankPyon_RusticDoor1x2c</replace>
+									<with>RB_DoubleDoor</with>
+								</li>
+							</replacers>
+						</ReplaceLib.ReplacerDef>
+					</value>
+				</li>
+				<li Class="PatchOperationRemove">
+					<success>Always</success>
+					<xpath>Defs/StyleCategoryDef[defName="DankPyon_OldWorld"]/thingDefStyles/li[thingDef="Door" and styleDef="FernyDankPyon_RusticDoor"]</xpath>
+				</li>
+			</operations>
+		</match>
+	</Operation>
+
 
 </Patch>
